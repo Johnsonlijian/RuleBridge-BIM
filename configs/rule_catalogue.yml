@@ -1,0 +1,77 @@
+rules:
+  - rule_id: R01_GLOBAL_ID
+    theme: Information continuity
+    source_requirement: "Every exchanged construction object shall have a stable identifier to support traceable compliance evidence."
+    target_classes: [IfcElement]
+    check: required_attribute
+    attribute: GlobalId
+    severity: critical
+
+  - rule_id: R02_OBJECT_NAME
+    theme: Information delivery
+    source_requirement: "Construction objects shall be named so that reviewers can identify the checked asset."
+    target_classes: [IfcElement, IfcSpace]
+    check: required_attribute
+    attribute: Name
+    severity: major
+
+  - rule_id: R03_TYPE_OR_OBJECTTYPE
+    theme: Semantic typing
+    source_requirement: "Objects shall carry a type, object type, or predefined type for automated rule matching."
+    target_classes: [IfcElement]
+    check: type_or_object_type
+    severity: major
+
+  - rule_id: R04_SPATIAL_CONTAINMENT
+    theme: Spatial context
+    source_requirement: "Objects shall be assigned to a spatial structure so that compliance evidence can be located."
+    target_classes: [IfcElement, IfcSpace]
+    check: containment_required
+    severity: major
+
+  - rule_id: R05_MATERIAL_AVAILABLE
+    theme: Constructability and fire review
+    source_requirement: "Building elements that influence construction or fire performance shall have material information."
+    target_classes: [IfcWall, IfcSlab, IfcDoor, IfcWindow, IfcStair, IfcRailing, IfcBeam, IfcColumn]
+    check: material_assigned
+    severity: major
+
+  - rule_id: R06_DOOR_CLEAR_WIDTH
+    theme: Accessibility
+    source_requirement: "Doors on accessible routes shall expose a machine-readable clear width not less than 0.8 m."
+    target_classes: [IfcDoor]
+    check: numeric_attribute_min
+    attribute: OverallWidth
+    min_value: 0.8
+    severity: critical
+
+  - rule_id: R07_WINDOW_DIMENSIONS
+    theme: Envelope review
+    source_requirement: "Windows shall expose machine-readable width and height for envelope and life-safety checks."
+    target_classes: [IfcWindow]
+    check: numeric_attributes_positive
+    attributes: [OverallWidth, OverallHeight]
+    severity: major
+
+  - rule_id: R08_SPACE_AREA
+    theme: Occupancy and accessibility
+    source_requirement: "Spaces shall expose an area quantity for occupancy and accessibility checks."
+    target_classes: [IfcSpace]
+    check: property_any_positive
+    property_names: [NetFloorArea, GrossFloorArea, Area, net_area, gross_area]
+    severity: major
+
+  - rule_id: R09_FIRE_RATING
+    theme: Fire safety
+    source_requirement: "Fire-separating walls and fire doors shall expose a fire-resistance rating in a property or type/name token."
+    target_classes: [IfcWall, IfcDoor]
+    check: fire_rating_available
+    property_names: [FireRating, FireResistanceRating, Fire Rating, Fire Resistance Rating]
+    severity: critical
+
+  - rule_id: R10_SITE_GEOREFERENCE
+    theme: Digital permit context
+    source_requirement: "A submitted model shall contain georeferencing information for automated jurisdictional and site-context checks."
+    target_classes: [IfcSite]
+    check: site_georeferenced
+    severity: major

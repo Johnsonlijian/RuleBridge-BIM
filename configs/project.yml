@@ -1,0 +1,25 @@
+project:
+  short_name: RuleBridge-BIM
+  working_title: "RuleBridge-BIM: standards-grounded OpenBIM compliance checking from regulatory text to executable model evidence"
+  target_journal: Automation in Construction
+  date_created: 2026-04-29
+
+paths:
+  code_accord: data_raw/CODE-ACCORD-main
+  ids_repo: data_raw/IDS-development
+  building_smart_ifc: data_raw/Sample-Test-Files-main
+  extra_ifc:
+    - data_raw/AdvancedProject.ifc
+
+evaluation:
+  max_failure_examples_per_rule: 8
+  include_ifc_extensions:
+    - .ifc
+  selected_relation_types:
+    - greater-equal
+    - greater
+    - less-equal
+    - less
+    - equal
+    - necessity
+

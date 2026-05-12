@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local/raw data and intermediate downloads
+data_raw/
+data_interim/
+outputs/
+*.zip
+*.7z
+*.rar
+
+# Submission and internal orchestration workspace
+Submit-AIC-2026/
+rounds/
+logs/
+deliverables/
+
+# Internal manuscript strategy/status notes
+00_*.md
+09_*.md
+10_*.md
+11_*.md
+12_*.md
+13_*.md
+14_*.md
+15_*.md
+16_*.md
+PROMPT_PACK.md
+SUBMISSION_CHECKLIST.md
+SOURCE_NOTES*.md
+
+# Active manuscript/submission files
+manuscript/*.docx
+manuscript/*.pdf
+manuscript/*Submission*
+manuscript/*Working*
+manuscript/paper.md
+manuscript/highlights.md
+manuscript/graphical_abstract_caption.md
+manuscript/cover_letter.md
+manuscript/reviewer_risk_response.md
+manuscript/AIC_*
+manuscript/AUTHOR_METADATA_REQUIRED.md
+
+# Local submission/export helpers
+scripts/04_export_to_shared_nas.ps1
+scripts/05_build_submission_files.py
+
+# Conflict and local sync artifacts
+*_Conflict.*
+*DESKTOP-*
+未命名绘图.drawio
+框图.png
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

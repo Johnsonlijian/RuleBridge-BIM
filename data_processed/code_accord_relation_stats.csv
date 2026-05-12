@@ -1,0 +1,11 @@
+relation_type,n_relations,machine_checkable_tier
+selection,1162,semantic_precondition
+necessity,1028,semantic_precondition
+none,1000,not_direct
+part-of,812,semantic_precondition
+greater-equal,107,direct_numeric
+equal,74,direct_numeric
+less-equal,70,direct_numeric
+greater,55,direct_numeric
+not-part-of,12,not_direct
+less,9,direct_numeric

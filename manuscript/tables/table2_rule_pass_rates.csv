@@ -1,0 +1,11 @@
+rule_id,theme,severity,target_count,pass_count,fail_count,pass_rate
+R01_GLOBAL_ID,Information continuity,critical,2937,2937,0,1.0
+R02_OBJECT_NAME,Information delivery,major,2949,2948,1,0.9996609020006781
+R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,2937,2916,21,0.992849846782431
+R04_SPATIAL_CONTAINMENT,Spatial context,major,2949,2501,448,0.8480840963038319
+R05_MATERIAL_AVAILABLE,Constructability and fire review,major,967,940,27,0.9720785935884177
+R06_DOOR_CLEAR_WIDTH,Accessibility,critical,126,88,38,0.6984126984126984
+R07_WINDOW_DIMENSIONS,Envelope review,major,264,264,0,1.0
+R08_SPACE_AREA,Occupancy and accessibility,major,12,10,2,0.8333333333333334
+R09_FIRE_RATING,Fire safety,critical,541,251,290,0.46395563770794823
+R10_SITE_GEOREFERENCE,Digital permit context,major,100,2,98,0.02

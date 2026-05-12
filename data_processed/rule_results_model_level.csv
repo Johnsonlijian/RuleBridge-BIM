@@ -1,0 +1,241 @@
+model,schema,rule_id,theme,severity,target_count,pass_count,fail_count,pass_rate,failure_examples
+IFC4-basin-tessellation,IFC4,R01_GLOBAL_ID,Information continuity,critical,1,1,0,1.0,
+IFC4-basin-tessellation,IFC4,R02_OBJECT_NAME,Information delivery,major,1,0,1,0.0,IfcSanitaryTerminal:0Zk2_ch2P32wrl1QuECi58 (Name is missing)
+IFC4-basin-tessellation,IFC4,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,1,1,0,1.0,
+IFC4-basin-tessellation,IFC4,R04_SPATIAL_CONTAINMENT,Spatial context,major,1,1,0,1.0,
+IFC4-basin-tessellation,IFC4,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,0,0,0,,
+IFC4-basin-tessellation,IFC4,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4-basin-tessellation,IFC4,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4-basin-tessellation,IFC4,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4-basin-tessellation,IFC4,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4-basin-tessellation,IFC4,R10_SITE_GEOREFERENCE,Digital permit context,major,0,0,0,,
+IFC4-column-straight-rectangle-tessellation,IFC4,R01_GLOBAL_ID,Information continuity,critical,1,1,0,1.0,
+IFC4-column-straight-rectangle-tessellation,IFC4,R02_OBJECT_NAME,Information delivery,major,1,1,0,1.0,
+IFC4-column-straight-rectangle-tessellation,IFC4,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,1,1,0,1.0,
+IFC4-column-straight-rectangle-tessellation,IFC4,R04_SPATIAL_CONTAINMENT,Spatial context,major,1,1,0,1.0,
+IFC4-column-straight-rectangle-tessellation,IFC4,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,1,0,1,0.0,IfcColumn:2WUGYBphrFv8aLIFJCmiIk (material assignment is missing)
+IFC4-column-straight-rectangle-tessellation,IFC4,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4-column-straight-rectangle-tessellation,IFC4,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4-column-straight-rectangle-tessellation,IFC4,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4-column-straight-rectangle-tessellation,IFC4,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4-column-straight-rectangle-tessellation,IFC4,R10_SITE_GEOREFERENCE,Digital permit context,major,1,0,1,0.0,IfcSite:0M0akNk9f3hOH9u2awmtre (site latitude/longitude are missing)
+IFC4-tessellated-item,IFC4,R01_GLOBAL_ID,Information continuity,critical,1,1,0,1.0,
+IFC4-tessellated-item,IFC4,R02_OBJECT_NAME,Information delivery,major,1,1,0,1.0,
+IFC4-tessellated-item,IFC4,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,1,0,1,0.0,IfcBuildingElementProxy:1kTvXnbbzCWw8lcMd1dR4o (type/object type is missing)
+IFC4-tessellated-item,IFC4,R04_SPATIAL_CONTAINMENT,Spatial context,major,1,1,0,1.0,
+IFC4-tessellated-item,IFC4,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,0,0,0,,
+IFC4-tessellated-item,IFC4,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4-tessellated-item,IFC4,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4-tessellated-item,IFC4,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4-tessellated-item,IFC4,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4-tessellated-item,IFC4,R10_SITE_GEOREFERENCE,Digital permit context,major,0,0,0,,
+IFC4-tessellation-with-individual-colors,IFC4,R01_GLOBAL_ID,Information continuity,critical,1,1,0,1.0,
+IFC4-tessellation-with-individual-colors,IFC4,R02_OBJECT_NAME,Information delivery,major,1,1,0,1.0,
+IFC4-tessellation-with-individual-colors,IFC4,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,1,0,1,0.0,IfcBuildingElementProxy:3VRU6T9_18bPNzxvGkzDIj (type/object type is missing)
+IFC4-tessellation-with-individual-colors,IFC4,R04_SPATIAL_CONTAINMENT,Spatial context,major,1,1,0,1.0,
+IFC4-tessellation-with-individual-colors,IFC4,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,0,0,0,,
+IFC4-tessellation-with-individual-colors,IFC4,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4-tessellation-with-individual-colors,IFC4,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4-tessellation-with-individual-colors,IFC4,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4-tessellation-with-individual-colors,IFC4,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4-tessellation-with-individual-colors,IFC4,R10_SITE_GEOREFERENCE,Digital permit context,major,0,0,0,,
+IFC4-wall-with-opening-and-window,IFC4,R01_GLOBAL_ID,Information continuity,critical,3,3,0,1.0,
+IFC4-wall-with-opening-and-window,IFC4,R02_OBJECT_NAME,Information delivery,major,3,3,0,1.0,
+IFC4-wall-with-opening-and-window,IFC4,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,3,2,1,0.6666666666666666,IfcWall:3ZYW59sxj8lei475l7EhLU (type/object type is missing)
+IFC4-wall-with-opening-and-window,IFC4,R04_SPATIAL_CONTAINMENT,Spatial context,major,3,2,1,0.6666666666666666,IfcOpeningElement:2bJiss68D6hvLKV8O1xmqJ (spatial containment is missing)
+IFC4-wall-with-opening-and-window,IFC4,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,2,2,0,1.0,
+IFC4-wall-with-opening-and-window,IFC4,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4-wall-with-opening-and-window,IFC4,R07_WINDOW_DIMENSIONS,Envelope review,major,1,1,0,1.0,
+IFC4-wall-with-opening-and-window,IFC4,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4-wall-with-opening-and-window,IFC4,R09_FIRE_RATING,Fire safety,critical,1,1,0,1.0,
+IFC4-wall-with-opening-and-window,IFC4,R10_SITE_GEOREFERENCE,Digital permit context,major,1,1,0,1.0,
+IFC4-Building-Architecture,IFC4,R01_GLOBAL_ID,Information continuity,critical,15,15,0,1.0,
+IFC4-Building-Architecture,IFC4,R02_OBJECT_NAME,Information delivery,major,17,17,0,1.0,
+IFC4-Building-Architecture,IFC4,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,15,13,2,0.8666666666666667,IfcBuildingElementProxy:1wADrO19H3w980h1wUyXLk (type/object type is missing) | IfcBuildingElementProxy:0bo7_K6az7AA$4RxkSNVNM (type/object type is missing)
+IFC4-Building-Architecture,IFC4,R04_SPATIAL_CONTAINMENT,Spatial context,major,17,17,0,1.0,
+IFC4-Building-Architecture,IFC4,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,7,7,0,1.0,
+IFC4-Building-Architecture,IFC4,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4-Building-Architecture,IFC4,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4-Building-Architecture,IFC4,R08_SPACE_AREA,Occupancy and accessibility,major,2,2,0,1.0,
+IFC4-Building-Architecture,IFC4,R09_FIRE_RATING,Fire safety,critical,4,0,4,0.0,IfcWall:1AQAupaRP1txwK1AGiN61V (fire rating property/token is missing) | IfcWall:3wdauVJT5Fx9drrREiDqA$ (fire rating property/token is missing) | IfcWall:0OfZwWc8j9QP5uX8xPTxDH (fire rating property/token is missing) | IfcWall:1uS5vfZPn9R8PlAaVd73on (fire rating property/token is missing)
+IFC4-Building-Architecture,IFC4,R10_SITE_GEOREFERENCE,Digital permit context,major,2,0,2,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1Pbuu0tu59NfhrTsztVBK1 (site latitude/longitude are missing)
+IFC4-Building-Hvac,IFC4,R01_GLOBAL_ID,Information continuity,critical,6,6,0,1.0,
+IFC4-Building-Hvac,IFC4,R02_OBJECT_NAME,Information delivery,major,6,6,0,1.0,
+IFC4-Building-Hvac,IFC4,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,6,6,0,1.0,
+IFC4-Building-Hvac,IFC4,R04_SPATIAL_CONTAINMENT,Spatial context,major,6,6,0,1.0,
+IFC4-Building-Hvac,IFC4,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,0,0,0,,
+IFC4-Building-Hvac,IFC4,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4-Building-Hvac,IFC4,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4-Building-Hvac,IFC4,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4-Building-Hvac,IFC4,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4-Building-Hvac,IFC4,R10_SITE_GEOREFERENCE,Digital permit context,major,2,0,2,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1Pbuu0tu59NfhrTsztVBK1 (site latitude/longitude are missing)
+IFC4-Building-Landscaping,IFC4,R01_GLOBAL_ID,Information continuity,critical,7,7,0,1.0,
+IFC4-Building-Landscaping,IFC4,R02_OBJECT_NAME,Information delivery,major,7,7,0,1.0,
+IFC4-Building-Landscaping,IFC4,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,7,6,1,0.8571428571428571,IfcBuildingElementProxy:2n2Nw9YVPDWRM5Ya5dKpj4 (type/object type is missing)
+IFC4-Building-Landscaping,IFC4,R04_SPATIAL_CONTAINMENT,Spatial context,major,7,7,0,1.0,
+IFC4-Building-Landscaping,IFC4,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,0,0,0,,
+IFC4-Building-Landscaping,IFC4,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4-Building-Landscaping,IFC4,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4-Building-Landscaping,IFC4,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4-Building-Landscaping,IFC4,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4-Building-Landscaping,IFC4,R10_SITE_GEOREFERENCE,Digital permit context,major,2,0,2,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1Pbuu0tu59NfhrTsztVBK1 (site latitude/longitude are missing)
+IFC4-Building-Structural,IFC4,R01_GLOBAL_ID,Information continuity,critical,18,18,0,1.0,
+IFC4-Building-Structural,IFC4,R02_OBJECT_NAME,Information delivery,major,18,18,0,1.0,
+IFC4-Building-Structural,IFC4,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,18,17,1,0.9444444444444444,IfcBuildingElementProxy:1CjP_CWub368bZVuVHeHs3 (type/object type is missing)
+IFC4-Building-Structural,IFC4,R04_SPATIAL_CONTAINMENT,Spatial context,major,18,18,0,1.0,
+IFC4-Building-Structural,IFC4,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,10,10,0,1.0,
+IFC4-Building-Structural,IFC4,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4-Building-Structural,IFC4,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4-Building-Structural,IFC4,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4-Building-Structural,IFC4,R09_FIRE_RATING,Fire safety,critical,4,0,4,0.0,IfcWall:0DyViLJJ175RvWQi1rE7a6 (fire rating property/token is missing) | IfcWall:3SGBcf7Lv0r80vKtUCgOpf (fire rating property/token is missing) | IfcWall:3oNJ9yHi5FJuFnK8yg68Yt (fire rating property/token is missing) | IfcWall:2gTJhghMT81QThk15l2VwR (fire rating property/token is missing)
+IFC4-Building-Structural,IFC4,R10_SITE_GEOREFERENCE,Digital permit context,major,2,0,2,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1Pbuu0tu59NfhrTsztVBK1 (site latitude/longitude are missing)
+IFC4-Infra-Bridge,IFC4,R01_GLOBAL_ID,Information continuity,critical,57,57,0,1.0,
+IFC4-Infra-Bridge,IFC4,R02_OBJECT_NAME,Information delivery,major,57,57,0,1.0,
+IFC4-Infra-Bridge,IFC4,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,57,57,0,1.0,
+IFC4-Infra-Bridge,IFC4,R04_SPATIAL_CONTAINMENT,Spatial context,major,57,57,0,1.0,
+IFC4-Infra-Bridge,IFC4,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,24,24,0,1.0,
+IFC4-Infra-Bridge,IFC4,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4-Infra-Bridge,IFC4,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4-Infra-Bridge,IFC4,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4-Infra-Bridge,IFC4,R09_FIRE_RATING,Fire safety,critical,4,0,4,0.0,IfcWall:064CKbgdv2$uFEsgE5j3ba (fire rating property/token is missing) | IfcWall:3LTGJZ50P17x4My$lMjBSo (fire rating property/token is missing) | IfcWall:2tKslGZJz0Nu12g9XAhM2h (fire rating property/token is missing) | IfcWall:06ymNwhgjC9vHrcokNIGHx (fire rating property/token is missing)
+IFC4-Infra-Bridge,IFC4,R10_SITE_GEOREFERENCE,Digital permit context,major,6,0,6,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1adp27B_9CUfup2ojuKOng (site latitude/longitude are missing) | IfcSite:3pnaj3EgL1cOScZHtoQhHO (site latitude/longitude are missing) | IfcSite:2Wad9UE39Fl81buLr2dp_x (site latitude/longitude are missing) | IfcSite:1$CApj9YLCeu0YyH5TXRVh (site latitude/longitude are missing) | IfcSite:2syxA9_lr7Ew2uZai3VhhS (site latitude/longitude are missing)
+IFC4-Infra-Landscaping,IFC4,R01_GLOBAL_ID,Information continuity,critical,112,112,0,1.0,
+IFC4-Infra-Landscaping,IFC4,R02_OBJECT_NAME,Information delivery,major,112,112,0,1.0,
+IFC4-Infra-Landscaping,IFC4,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,112,107,5,0.9553571428571429,IfcBuildingElementProxy:2kltwih_PEcfdSJ4b17wEl (type/object type is missing) | IfcBuildingElementProxy:0OzNRPe4z1_eVDIEUoZJ99 (type/object type is missing) | IfcBuildingElementProxy:1FI54l9HzB2PvEGvFyXLbP (type/object type is missing) | IfcBuildingElementProxy:3Ch90OuJb98uHg3Gufe_Xm (type/object type is missing) | IfcBuildingElementProxy:3M9N4ltyTDLedg0IXOqRl0 (type/object type is missing)
+IFC4-Infra-Landscaping,IFC4,R04_SPATIAL_CONTAINMENT,Spatial context,major,112,112,0,1.0,
+IFC4-Infra-Landscaping,IFC4,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,0,0,0,,
+IFC4-Infra-Landscaping,IFC4,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4-Infra-Landscaping,IFC4,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4-Infra-Landscaping,IFC4,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4-Infra-Landscaping,IFC4,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4-Infra-Landscaping,IFC4,R10_SITE_GEOREFERENCE,Digital permit context,major,8,0,8,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1KXHFkwF18U8qCarKtCVlu (site latitude/longitude are missing) | IfcSite:1adp27B_9CUfup2ojuKOng (site latitude/longitude are missing) | IfcSite:3pnaj3EgL1cOScZHtoQhHO (site latitude/longitude are missing) | IfcSite:2Wad9UE39Fl81buLr2dp_x (site latitude/longitude are missing) | IfcSite:1$CApj9YLCeu0YyH5TXRVh (site latitude/longitude are missing) | IfcSite:3EVN3cIbP9Dgdlp33CKZ9T (site latitude/longitude are missing) | IfcSite:2syxA9_lr7Ew2uZai3VhhS (site latitude/longitude are missing)
+IFC4-Infra-Plumbing,IFC4,R01_GLOBAL_ID,Information continuity,critical,29,29,0,1.0,
+IFC4-Infra-Plumbing,IFC4,R02_OBJECT_NAME,Information delivery,major,29,29,0,1.0,
+IFC4-Infra-Plumbing,IFC4,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,29,29,0,1.0,
+IFC4-Infra-Plumbing,IFC4,R04_SPATIAL_CONTAINMENT,Spatial context,major,29,29,0,1.0,
+IFC4-Infra-Plumbing,IFC4,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,0,0,0,,
+IFC4-Infra-Plumbing,IFC4,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4-Infra-Plumbing,IFC4,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4-Infra-Plumbing,IFC4,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4-Infra-Plumbing,IFC4,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4-Infra-Plumbing,IFC4,R10_SITE_GEOREFERENCE,Digital permit context,major,6,0,6,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1adp27B_9CUfup2ojuKOng (site latitude/longitude are missing) | IfcSite:3pnaj3EgL1cOScZHtoQhHO (site latitude/longitude are missing) | IfcSite:2Wad9UE39Fl81buLr2dp_x (site latitude/longitude are missing) | IfcSite:1$CApj9YLCeu0YyH5TXRVh (site latitude/longitude are missing) | IfcSite:2syxA9_lr7Ew2uZai3VhhS (site latitude/longitude are missing)
+IFC4-Infra-Rail,IFC4,R01_GLOBAL_ID,Information continuity,critical,75,75,0,1.0,
+IFC4-Infra-Rail,IFC4,R02_OBJECT_NAME,Information delivery,major,75,75,0,1.0,
+IFC4-Infra-Rail,IFC4,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,75,75,0,1.0,
+IFC4-Infra-Rail,IFC4,R04_SPATIAL_CONTAINMENT,Spatial context,major,75,75,0,1.0,
+IFC4-Infra-Rail,IFC4,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,0,0,0,,
+IFC4-Infra-Rail,IFC4,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4-Infra-Rail,IFC4,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4-Infra-Rail,IFC4,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4-Infra-Rail,IFC4,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4-Infra-Rail,IFC4,R10_SITE_GEOREFERENCE,Digital permit context,major,6,0,6,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1adp27B_9CUfup2ojuKOng (site latitude/longitude are missing) | IfcSite:3pnaj3EgL1cOScZHtoQhHO (site latitude/longitude are missing) | IfcSite:2Wad9UE39Fl81buLr2dp_x (site latitude/longitude are missing) | IfcSite:1$CApj9YLCeu0YyH5TXRVh (site latitude/longitude are missing) | IfcSite:2syxA9_lr7Ew2uZai3VhhS (site latitude/longitude are missing)
+IFC4-Infra-Road,IFC4,R01_GLOBAL_ID,Information continuity,critical,55,55,0,1.0,
+IFC4-Infra-Road,IFC4,R02_OBJECT_NAME,Information delivery,major,55,55,0,1.0,
+IFC4-Infra-Road,IFC4,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,55,55,0,1.0,
+IFC4-Infra-Road,IFC4,R04_SPATIAL_CONTAINMENT,Spatial context,major,55,55,0,1.0,
+IFC4-Infra-Road,IFC4,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,32,32,0,1.0,
+IFC4-Infra-Road,IFC4,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4-Infra-Road,IFC4,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4-Infra-Road,IFC4,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4-Infra-Road,IFC4,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4-Infra-Road,IFC4,R10_SITE_GEOREFERENCE,Digital permit context,major,6,0,6,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1adp27B_9CUfup2ojuKOng (site latitude/longitude are missing) | IfcSite:3pnaj3EgL1cOScZHtoQhHO (site latitude/longitude are missing) | IfcSite:2Wad9UE39Fl81buLr2dp_x (site latitude/longitude are missing) | IfcSite:1$CApj9YLCeu0YyH5TXRVh (site latitude/longitude are missing) | IfcSite:2syxA9_lr7Ew2uZai3VhhS (site latitude/longitude are missing)
+IFC4X3-Building-Architecture,IFC4X3,R01_GLOBAL_ID,Information continuity,critical,15,15,0,1.0,
+IFC4X3-Building-Architecture,IFC4X3,R02_OBJECT_NAME,Information delivery,major,17,17,0,1.0,
+IFC4X3-Building-Architecture,IFC4X3,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,15,13,2,0.8666666666666667,IfcBuildingElementProxy:1wADrO19H3w980h1wUyXLk (type/object type is missing) | IfcBuildingElementProxy:0bo7_K6az7AA$4RxkSNVNM (type/object type is missing)
+IFC4X3-Building-Architecture,IFC4X3,R04_SPATIAL_CONTAINMENT,Spatial context,major,17,17,0,1.0,
+IFC4X3-Building-Architecture,IFC4X3,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,7,7,0,1.0,
+IFC4X3-Building-Architecture,IFC4X3,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4X3-Building-Architecture,IFC4X3,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4X3-Building-Architecture,IFC4X3,R08_SPACE_AREA,Occupancy and accessibility,major,2,0,2,0.0,IfcSpace:0xY$LvXaDEswJDk_VU74C_ (no positive area property found) | IfcSpace:18QhMtUIXBvQktPHXXxs7H (no positive area property found)
+IFC4X3-Building-Architecture,IFC4X3,R09_FIRE_RATING,Fire safety,critical,4,0,4,0.0,IfcWall:1AQAupaRP1txwK1AGiN61V (fire rating property/token is missing) | IfcWall:3wdauVJT5Fx9drrREiDqA$ (fire rating property/token is missing) | IfcWall:0OfZwWc8j9QP5uX8xPTxDH (fire rating property/token is missing) | IfcWall:1uS5vfZPn9R8PlAaVd73on (fire rating property/token is missing)
+IFC4X3-Building-Architecture,IFC4X3,R10_SITE_GEOREFERENCE,Digital permit context,major,2,0,2,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1Pbuu0tu59NfhrTsztVBK1 (site latitude/longitude are missing)
+IFC4X3-Building-Hvac,IFC4X3,R01_GLOBAL_ID,Information continuity,critical,6,6,0,1.0,
+IFC4X3-Building-Hvac,IFC4X3,R02_OBJECT_NAME,Information delivery,major,6,6,0,1.0,
+IFC4X3-Building-Hvac,IFC4X3,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,6,6,0,1.0,
+IFC4X3-Building-Hvac,IFC4X3,R04_SPATIAL_CONTAINMENT,Spatial context,major,6,6,0,1.0,
+IFC4X3-Building-Hvac,IFC4X3,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,0,0,0,,
+IFC4X3-Building-Hvac,IFC4X3,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4X3-Building-Hvac,IFC4X3,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4X3-Building-Hvac,IFC4X3,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4X3-Building-Hvac,IFC4X3,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4X3-Building-Hvac,IFC4X3,R10_SITE_GEOREFERENCE,Digital permit context,major,2,0,2,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1Pbuu0tu59NfhrTsztVBK1 (site latitude/longitude are missing)
+IFC4X3-Building-Landscaping,IFC4X3,R01_GLOBAL_ID,Information continuity,critical,7,7,0,1.0,
+IFC4X3-Building-Landscaping,IFC4X3,R02_OBJECT_NAME,Information delivery,major,7,7,0,1.0,
+IFC4X3-Building-Landscaping,IFC4X3,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,7,6,1,0.8571428571428571,IfcBuildingElementProxy:2n2Nw9YVPDWRM5Ya5dKpj4 (type/object type is missing)
+IFC4X3-Building-Landscaping,IFC4X3,R04_SPATIAL_CONTAINMENT,Spatial context,major,7,7,0,1.0,
+IFC4X3-Building-Landscaping,IFC4X3,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,0,0,0,,
+IFC4X3-Building-Landscaping,IFC4X3,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4X3-Building-Landscaping,IFC4X3,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4X3-Building-Landscaping,IFC4X3,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4X3-Building-Landscaping,IFC4X3,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4X3-Building-Landscaping,IFC4X3,R10_SITE_GEOREFERENCE,Digital permit context,major,2,0,2,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1Pbuu0tu59NfhrTsztVBK1 (site latitude/longitude are missing)
+IFC4X3-Building-Structural,IFC4X3,R01_GLOBAL_ID,Information continuity,critical,18,18,0,1.0,
+IFC4X3-Building-Structural,IFC4X3,R02_OBJECT_NAME,Information delivery,major,18,18,0,1.0,
+IFC4X3-Building-Structural,IFC4X3,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,18,17,1,0.9444444444444444,IfcBuildingElementProxy:1CjP_CWub368bZVuVHeHs3 (type/object type is missing)
+IFC4X3-Building-Structural,IFC4X3,R04_SPATIAL_CONTAINMENT,Spatial context,major,18,18,0,1.0,
+IFC4X3-Building-Structural,IFC4X3,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,10,10,0,1.0,
+IFC4X3-Building-Structural,IFC4X3,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4X3-Building-Structural,IFC4X3,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4X3-Building-Structural,IFC4X3,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4X3-Building-Structural,IFC4X3,R09_FIRE_RATING,Fire safety,critical,4,0,4,0.0,IfcWall:0DyViLJJ175RvWQi1rE7a6 (fire rating property/token is missing) | IfcWall:3SGBcf7Lv0r80vKtUCgOpf (fire rating property/token is missing) | IfcWall:3oNJ9yHi5FJuFnK8yg68Yt (fire rating property/token is missing) | IfcWall:2gTJhghMT81QThk15l2VwR (fire rating property/token is missing)
+IFC4X3-Building-Structural,IFC4X3,R10_SITE_GEOREFERENCE,Digital permit context,major,2,0,2,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1Pbuu0tu59NfhrTsztVBK1 (site latitude/longitude are missing)
+IFC4X3-Infra-Bridge,IFC4X3,R01_GLOBAL_ID,Information continuity,critical,50,50,0,1.0,
+IFC4X3-Infra-Bridge,IFC4X3,R02_OBJECT_NAME,Information delivery,major,50,50,0,1.0,
+IFC4X3-Infra-Bridge,IFC4X3,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,50,50,0,1.0,
+IFC4X3-Infra-Bridge,IFC4X3,R04_SPATIAL_CONTAINMENT,Spatial context,major,50,50,0,1.0,
+IFC4X3-Infra-Bridge,IFC4X3,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,24,24,0,1.0,
+IFC4X3-Infra-Bridge,IFC4X3,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4X3-Infra-Bridge,IFC4X3,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4X3-Infra-Bridge,IFC4X3,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4X3-Infra-Bridge,IFC4X3,R09_FIRE_RATING,Fire safety,critical,4,0,4,0.0,IfcWall:064CKbgdv2$uFEsgE5j3ba (fire rating property/token is missing) | IfcWall:3LTGJZ50P17x4My$lMjBSo (fire rating property/token is missing) | IfcWall:2tKslGZJz0Nu12g9XAhM2h (fire rating property/token is missing) | IfcWall:06ymNwhgjC9vHrcokNIGHx (fire rating property/token is missing)
+IFC4X3-Infra-Bridge,IFC4X3,R10_SITE_GEOREFERENCE,Digital permit context,major,6,0,6,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1adp27B_9CUfup2ojuKOng (site latitude/longitude are missing) | IfcSite:3pnaj3EgL1cOScZHtoQhHO (site latitude/longitude are missing) | IfcSite:2Wad9UE39Fl81buLr2dp_x (site latitude/longitude are missing) | IfcSite:1$CApj9YLCeu0YyH5TXRVh (site latitude/longitude are missing) | IfcSite:2syxA9_lr7Ew2uZai3VhhS (site latitude/longitude are missing)
+IFC4X3-Infra-Landscaping,IFC4X3,R01_GLOBAL_ID,Information continuity,critical,112,112,0,1.0,
+IFC4X3-Infra-Landscaping,IFC4X3,R02_OBJECT_NAME,Information delivery,major,112,112,0,1.0,
+IFC4X3-Infra-Landscaping,IFC4X3,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,112,107,5,0.9553571428571429,IfcBuildingElementProxy:2kltwih_PEcfdSJ4b17wEl (type/object type is missing) | IfcBuildingElementProxy:0OzNRPe4z1_eVDIEUoZJ99 (type/object type is missing) | IfcBuildingElementProxy:1FI54l9HzB2PvEGvFyXLbP (type/object type is missing) | IfcBuildingElementProxy:3Ch90OuJb98uHg3Gufe_Xm (type/object type is missing) | IfcBuildingElementProxy:3M9N4ltyTDLedg0IXOqRl0 (type/object type is missing)
+IFC4X3-Infra-Landscaping,IFC4X3,R04_SPATIAL_CONTAINMENT,Spatial context,major,112,112,0,1.0,
+IFC4X3-Infra-Landscaping,IFC4X3,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,0,0,0,,
+IFC4X3-Infra-Landscaping,IFC4X3,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4X3-Infra-Landscaping,IFC4X3,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4X3-Infra-Landscaping,IFC4X3,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4X3-Infra-Landscaping,IFC4X3,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4X3-Infra-Landscaping,IFC4X3,R10_SITE_GEOREFERENCE,Digital permit context,major,8,0,8,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1KXHFkwF18U8qCarKtCVlu (site latitude/longitude are missing) | IfcSite:1adp27B_9CUfup2ojuKOng (site latitude/longitude are missing) | IfcSite:3pnaj3EgL1cOScZHtoQhHO (site latitude/longitude are missing) | IfcSite:2Wad9UE39Fl81buLr2dp_x (site latitude/longitude are missing) | IfcSite:1$CApj9YLCeu0YyH5TXRVh (site latitude/longitude are missing) | IfcSite:3EVN3cIbP9Dgdlp33CKZ9T (site latitude/longitude are missing) | IfcSite:2syxA9_lr7Ew2uZai3VhhS (site latitude/longitude are missing)
+IFC4X3-Infra-Plumbing,IFC4X3,R01_GLOBAL_ID,Information continuity,critical,29,29,0,1.0,
+IFC4X3-Infra-Plumbing,IFC4X3,R02_OBJECT_NAME,Information delivery,major,29,29,0,1.0,
+IFC4X3-Infra-Plumbing,IFC4X3,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,29,29,0,1.0,
+IFC4X3-Infra-Plumbing,IFC4X3,R04_SPATIAL_CONTAINMENT,Spatial context,major,29,29,0,1.0,
+IFC4X3-Infra-Plumbing,IFC4X3,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,0,0,0,,
+IFC4X3-Infra-Plumbing,IFC4X3,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4X3-Infra-Plumbing,IFC4X3,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4X3-Infra-Plumbing,IFC4X3,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4X3-Infra-Plumbing,IFC4X3,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4X3-Infra-Plumbing,IFC4X3,R10_SITE_GEOREFERENCE,Digital permit context,major,6,0,6,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1adp27B_9CUfup2ojuKOng (site latitude/longitude are missing) | IfcSite:3pnaj3EgL1cOScZHtoQhHO (site latitude/longitude are missing) | IfcSite:2Wad9UE39Fl81buLr2dp_x (site latitude/longitude are missing) | IfcSite:1$CApj9YLCeu0YyH5TXRVh (site latitude/longitude are missing) | IfcSite:2syxA9_lr7Ew2uZai3VhhS (site latitude/longitude are missing)
+IFC4X3-Infra-Rail,IFC4X3,R01_GLOBAL_ID,Information continuity,critical,75,75,0,1.0,
+IFC4X3-Infra-Rail,IFC4X3,R02_OBJECT_NAME,Information delivery,major,75,75,0,1.0,
+IFC4X3-Infra-Rail,IFC4X3,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,75,75,0,1.0,
+IFC4X3-Infra-Rail,IFC4X3,R04_SPATIAL_CONTAINMENT,Spatial context,major,75,75,0,1.0,
+IFC4X3-Infra-Rail,IFC4X3,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,0,0,0,,
+IFC4X3-Infra-Rail,IFC4X3,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4X3-Infra-Rail,IFC4X3,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4X3-Infra-Rail,IFC4X3,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4X3-Infra-Rail,IFC4X3,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4X3-Infra-Rail,IFC4X3,R10_SITE_GEOREFERENCE,Digital permit context,major,6,0,6,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1adp27B_9CUfup2ojuKOng (site latitude/longitude are missing) | IfcSite:3pnaj3EgL1cOScZHtoQhHO (site latitude/longitude are missing) | IfcSite:2Wad9UE39Fl81buLr2dp_x (site latitude/longitude are missing) | IfcSite:1$CApj9YLCeu0YyH5TXRVh (site latitude/longitude are missing) | IfcSite:2syxA9_lr7Ew2uZai3VhhS (site latitude/longitude are missing)
+IFC4X3-Infra-Road,IFC4X3,R01_GLOBAL_ID,Information continuity,critical,55,55,0,1.0,
+IFC4X3-Infra-Road,IFC4X3,R02_OBJECT_NAME,Information delivery,major,55,55,0,1.0,
+IFC4X3-Infra-Road,IFC4X3,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,55,55,0,1.0,
+IFC4X3-Infra-Road,IFC4X3,R04_SPATIAL_CONTAINMENT,Spatial context,major,55,35,20,0.6363636363636364,IfcSurfaceFeature:2E09k8p5j8Ie2cdShEa6y3 (spatial containment is missing) | IfcSurfaceFeature:3oFdaVamzCehZnvL2DVyTv (spatial containment is missing) | IfcSurfaceFeature:22Oy65k6H6RQzyRYDT5O81 (spatial containment is missing) | IfcSurfaceFeature:3nP$zLBVH1Yxs64yX$MtCU (spatial containment is missing) | IfcSurfaceFeature:3iK_B7RQX1A90d2SZn3haF (spatial containment is missing) | IfcSurfaceFeature:2k035JfqPANO_5sd1VjpMr (spatial containment is missing) | IfcSurfaceFeature:2xFNEEiVXAoQ17T8KWBbr6 (spatial containment is missing) | IfcSurfaceFeature:3PBVDB_Gv65fD5rAR8Y2j0 (spatial containment is missing)
+IFC4X3-Infra-Road,IFC4X3,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,0,0,0,,
+IFC4X3-Infra-Road,IFC4X3,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,0,0,0,,
+IFC4X3-Infra-Road,IFC4X3,R07_WINDOW_DIMENSIONS,Envelope review,major,0,0,0,,
+IFC4X3-Infra-Road,IFC4X3,R08_SPACE_AREA,Occupancy and accessibility,major,0,0,0,,
+IFC4X3-Infra-Road,IFC4X3,R09_FIRE_RATING,Fire safety,critical,0,0,0,,
+IFC4X3-Infra-Road,IFC4X3,R10_SITE_GEOREFERENCE,Digital permit context,major,6,0,6,0.0,IfcSite:23sFQGRy90RxVbRHD9iSE2 (site latitude/longitude are missing) | IfcSite:1adp27B_9CUfup2ojuKOng (site latitude/longitude are missing) | IfcSite:3pnaj3EgL1cOScZHtoQhHO (site latitude/longitude are missing) | IfcSite:2Wad9UE39Fl81buLr2dp_x (site latitude/longitude are missing) | IfcSite:1$CApj9YLCeu0YyH5TXRVh (site latitude/longitude are missing) | IfcSite:2syxA9_lr7Ew2uZai3VhhS (site latitude/longitude are missing)
+AdvancedProject,IFC2X3,R01_GLOBAL_ID,Information continuity,critical,2189,2189,0,1.0,
+AdvancedProject,IFC2X3,R02_OBJECT_NAME,Information delivery,major,2197,2197,0,1.0,
+AdvancedProject,IFC2X3,R03_TYPE_OR_OBJECTTYPE,Semantic typing,major,2189,2189,0,1.0,
+AdvancedProject,IFC2X3,R04_SPATIAL_CONTAINMENT,Spatial context,major,2197,1770,427,0.8056440600819299,IfcOpeningElement:0Qb3qd4DH6Feh3qU6VjD02 (spatial containment is missing) | IfcOpeningElement:22iBpajnPAAeLW8ujBZ$h1 (spatial containment is missing) | IfcOpeningElement:1hfI82XjT0AA4$4pjURu5x (spatial containment is missing) | IfcOpeningElement:1YzS$eyhPBsA3utKHty5Xy (spatial containment is missing) | IfcOpeningElement:3Oy_6QQ2rF3BFIBDHSLVUQ (spatial containment is missing) | IfcOpeningElement:3_3qU9iXH7Uw$ij7raovIu (spatial containment is missing) | IfcOpeningElement:3zemEY6LT4vBQJ26ubDoun (spatial containment is missing) | IfcOpeningElement:3u643B$bfAsQMRqY3WoYcg (spatial containment is missing)
+AdvancedProject,IFC2X3,R05_MATERIAL_AVAILABLE,Constructability and fire review,major,850,824,26,0.9694117647058823,IfcStair:0MOEoDTm9EnO9yKsXjjlgV (material assignment is missing) | IfcStair:3GzoWuxxn4WO8bCtw8H3B6 (material assignment is missing) | IfcStair:3naw$9in55$v8L5CpxnK2i (material assignment is missing) | IfcStair:0ikA9YOKrBaRArRnE24rkF (material assignment is missing) | IfcStair:2jMg7KKh9BngwDP$rL2Wdy (material assignment is missing) | IfcStair:03V7Txha10JAsPO1eunWrl (material assignment is missing) | IfcStair:0vD9RialTD9QxDNUJU2vYx (material assignment is missing) | IfcStair:175SJZNMbBABiZ2bXgMZA3 (material assignment is missing)
+AdvancedProject,IFC2X3,R06_DOOR_CLEAR_WIDTH,Accessibility,critical,126,88,38,0.6984126984126984,IfcDoor:1cFRppLhj948bTrzz_Ao_1 (OverallWidth is missing or below 0.8 m) | IfcDoor:1cFRppLhj948bTrzz_AoiD (OverallWidth is missing or below 0.8 m) | IfcDoor:1cFRppLhj948bTrzz_Ao4n (OverallWidth is missing or below 0.8 m) | IfcDoor:1cFRppLhj948bTrzz_Apxb (OverallWidth is missing or below 0.8 m) | IfcDoor:1cFRppLhj948bTrzz_Apu2 (OverallWidth is missing or below 0.8 m) | IfcDoor:1cFRppLhj948bTrzz_Apiw (OverallWidth is missing or below 0.8 m) | IfcDoor:1cFRppLhj948bTrzz_ApiD (OverallWidth is missing or below 0.8 m) | IfcDoor:1cFRppLhj948bTrzz_ApRD (OverallWidth is missing or below 0.8 m)
+AdvancedProject,IFC2X3,R07_WINDOW_DIMENSIONS,Envelope review,major,263,263,0,1.0,
+AdvancedProject,IFC2X3,R08_SPACE_AREA,Occupancy and accessibility,major,8,8,0,1.0,
+AdvancedProject,IFC2X3,R09_FIRE_RATING,Fire safety,critical,516,250,266,0.4844961240310077,IfcWall:3GdhC2lQD5ifjmLdQ3yoTZ (fire rating property/token is missing) | IfcWall:1cFRppLhj948bTrzz_ApSU (fire rating property/token is missing) | IfcWall:1cFRppLhj948bTrzz_ApJS (fire rating property/token is missing) | IfcWall:0ducQKkW5EGQM9rQ5zdMAQ (fire rating property/token is missing) | IfcWall:0ducQKkW5EGQM9rQ5zdM4W (fire rating property/token is missing) | IfcWall:0ducQKkW5EGQM9rQ5zdPfL (fire rating property/token is missing) | IfcWallStandardCase:0cRoQU_sD5R8MkkMkeodzx (fire rating property/token is missing) | IfcWallStandardCase:0cRoQU_sD5R8MkkMkeodyq (fire rating property/token is missing)
+AdvancedProject,IFC2X3,R10_SITE_GEOREFERENCE,Digital permit context,major,18,1,17,0.05555555555555555,IfcSite:0Um_J2ClP45uPRcRbJqhrc (site latitude/longitude are missing) | IfcSite:0Um_J2ClP45uPRcRbJqhor (site latitude/longitude are missing) | IfcSite:0Um_J2ClP45uPRcRbJqhpS (site latitude/longitude are missing) | IfcSite:0Um_J2ClP45uPRcRbJqhmP (site latitude/longitude are missing) | IfcSite:0Um_J2ClP45uPRcRbJqhmO (site latitude/longitude are missing) | IfcSite:0Um_J2ClP45uPRcRbJqhmV (site latitude/longitude are missing) | IfcSite:2SEl4sI2X1JhqYqQydYvfU (site latitude/longitude are missing) | IfcSite:2SEl4sI2X1JhqYqQydYvfh (site latitude/longitude are missing)
