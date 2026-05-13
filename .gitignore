@@ -44,6 +44,11 @@ manuscript/*.pdf
 manuscript/*Submission*
 manuscript/*Supplementary*
 manuscript/*Working*
+manuscript/*CoverLetter*
+manuscript/*Title_Page*
+manuscript/*Final_Submission_Checklist*
+manuscript/ECAM_Tables*
+manuscript/figure_provenance_log*.csv
 manuscript/paper.md
 manuscript/highlights.md
 manuscript/graphical_abstract_caption.md
