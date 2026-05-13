@@ -1,6 +1,6 @@
 # RuleBridge-BIM
 
-RuleBridge-BIM is a reproducible OpenBIM evidence-readiness dataset and diagnostic protocol for automated compliance checking (ACC). The project links regulatory relation labels, IDS-like information requirements, deterministic IFC evidence extraction, object-level readiness traces, field-presence ablation, failure taxonomy and counterfactual rule-sensitivity assessment.
+RuleBridge-BIM is a reproducible OpenBIM evidence-readiness dataset and diagnostic protocol for pre-compliance information readiness in construction project delivery. The project links regulatory relation labels, IDS-like information requirements, deterministic IFC evidence extraction, object-level readiness traces, an IfcOpenShell direct-field reference, failure taxonomy and diagnostic sensitivity assessment.
 
 This repository is prepared as the public reproducibility package for the manuscript project. It is not a public dump of the full submission workspace: raw third-party archives, active submission drafts, cover letters, reviewer strategy notes, internal rounds and journal-specific packages are intentionally excluded.
 
@@ -14,7 +14,7 @@ The pipeline:
 4. extracts IFC evidence deterministically;
 5. reports readiness results for ten evidence-oriented checks;
 6. exports object-level readiness verdicts and failure reasons;
-7. compares configured checks with a field-presence ablation;
+7. compares configured checks with an IfcOpenShell direct-field reference;
 8. runs a lightweight IfcOpenShell direct-field reference check;
 9. tests checker sensitivity with counterfactual pass/fail mutations.
 
@@ -30,7 +30,7 @@ The protocol does not claim legal compliance of sampled buildings, does not clai
 - 24 public IFC models across IFC2X3, IFC4 and IFC4X3.
 - 13,782 object-rule readiness evaluations.
 - 10 OpenBIM information-readiness checks.
-- 141 counterfactual rule-sensitivity assessment rows.
+- 141 diagnostic sensitivity assessment rows.
 
 ## Repository Layout
 

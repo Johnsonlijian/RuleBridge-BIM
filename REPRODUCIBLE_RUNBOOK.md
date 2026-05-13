@@ -2,9 +2,7 @@
 
 ## Environment
 
-Working directory:
-
-`R:\NAS_DRIVE\IMUT\1-Research_Output\1-Papers\1-In_Preparation\2026-AIC-RuleBridge-BIM`
+Working directory: repository root.
 
 Python environment:
 
@@ -19,7 +17,18 @@ Installed core packages:
 - lxml
 - pyyaml
 
-## Data Already Downloaded
+**Headless / CI**：`scripts/03_make_figures.py` 已设置 `matplotlib.use("Agg")`，避免无显示环境下图文件静默不写。
+
+## Optional verification (no IFC)
+
+After tables exist, re-aggregate pass rates from CSVs (stdlib):
+
+```powershell
+$env:PYTHONPATH='src'
+python scripts\06_reverify_derived_tables.py --md-out rounds/R17_rulebridge_computation_2026-05-13/iter01_reverification.md
+```
+
+Writes `outputs/reverification_report.json`.
 
 - `data_raw/CODE-ACCORD-main`
 - `data_raw/IDS-development`
@@ -63,4 +72,4 @@ The empirical pilot supports a bounded evidence-readiness dataset and diagnostic
 
 1. a larger corpus of real or permit-like IFC submissions if legally accessible;
 2. external expert labelling of the prepared clause-tier sample;
-3. comparison against an existing IDS checker, IfcOpenShell reference extraction script, or transparent manual encoding baseline.
+3. comparison against an existing IDS checker, commercial ACC workflow, or transparent manual encoding baseline.

@@ -1,5 +1,9 @@
 from __future__ import annotations
 
+import matplotlib
+
+matplotlib.use("Agg")
+
 import textwrap
 
 import matplotlib.pyplot as plt

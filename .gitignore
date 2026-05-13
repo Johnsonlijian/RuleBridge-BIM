@@ -61,6 +61,7 @@ manuscript/AUTHOR_METADATA_REQUIRED.md
 # Local submission/export helpers
 scripts/04_export_to_shared_nas.ps1
 scripts/05_build_submission_files.py
+scripts/06_reverify_derived_tables.py
 
 # Conflict and local sync artifacts
 *_Conflict.*

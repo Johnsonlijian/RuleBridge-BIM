@@ -64,6 +64,14 @@ def model_label(path: Path) -> str:
     return path.stem
 
 
+def source_path_label(path: Path) -> str:
+    """Record a portable source-relative path instead of a local absolute path."""
+    try:
+        return str(path.relative_to(DATA_RAW)).replace("\\", "/")
+    except ValueError:
+        return path.name
+
+
 def main() -> None:
     ensure_dirs()
     config = yaml.safe_load((CONFIGS / "project.yml").read_text(encoding="utf-8"))
@@ -85,7 +93,7 @@ def main() -> None:
 
         inventory = {
             "model": label,
-            "path": str(path),
+            "path": source_path_label(path),
             "schema": model.schema,
             "file_size_mb": round(path.stat().st_size / 1024 / 1024, 3),
             "parse_status": "ok",
@@ -188,4 +196,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
