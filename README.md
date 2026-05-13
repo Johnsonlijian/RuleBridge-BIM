@@ -15,7 +15,8 @@ The pipeline:
 5. reports readiness results for ten evidence-oriented checks;
 6. exports object-level readiness verdicts and failure reasons;
 7. compares configured checks with a field-presence ablation;
-8. tests checker sensitivity with counterfactual pass/fail mutations.
+8. runs a lightweight IfcOpenShell direct-field reference check;
+9. tests checker sensitivity with counterfactual pass/fail mutations.
 
 The protocol does not claim legal compliance of sampled buildings, does not claim that the IFC samples represent permit submissions, does not claim independently validated clause-level regulatory traceability, and does not claim superiority over existing ACC or IDS tools.
 
@@ -56,6 +57,7 @@ $env:PYTHONPATH='src'
 python scripts\01_build_corpora.py
 python scripts\02_run_openbim_checks.py
 python scripts\03_make_figures.py
+python scripts\04_external_reference_check.py
 ```
 
 Raw public data should be obtained from the original source links in `DATASETS_AND_LINKS.csv`. Third-party raw archives are not redistributed in this repository because their license and redistribution terms must be respected source by source.
@@ -66,6 +68,7 @@ Raw public data should be obtained from the original source links in `DATASETS_A
 - `data_processed/rule_results_model_level.csv`
 - `data_processed/rule_results_element_level.csv`
 - `data_processed/counterfactual_validation.csv`
+- `data_processed/external_ifcopenshell_direct_reference.csv`
 - `manuscript/tables/table2_rule_pass_rates.csv`
 - `manuscript/tables/table4_counterfactual_validation.csv`
 

@@ -35,6 +35,7 @@ $env:PYTHONPATH='src'
 .\.venv\Scripts\python.exe scripts\01_build_corpora.py
 .\.venv\Scripts\python.exe scripts\02_run_openbim_checks.py
 .\.venv\Scripts\python.exe scripts\03_make_figures.py
+.\.venv\Scripts\python.exe scripts\04_external_reference_check.py
 ```
 
 ## Generated Tables
@@ -43,6 +44,8 @@ $env:PYTHONPATH='src'
 - `manuscript/tables/table2_rule_pass_rates.csv`
 - `manuscript/tables/table3_model_rule_matrix.csv`
 - `manuscript/tables/table4_counterfactual_validation.csv`
+- `data_processed/external_ifcopenshell_direct_reference.csv`
+- `data_processed/external_ifcopenshell_direct_reference_by_model.csv`
 
 ## Generated Figures
 
