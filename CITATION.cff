@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata from this file."
-title: "RuleBridge-BIM: an OpenBIM information-readiness benchmark for automated compliance checking"
+title: "RuleBridge-BIM: an OpenBIM evidence-route benchmark for pre-compliance information governance"
 authors:
   - family-names: "Ren"
     given-names: "Lijian"
@@ -11,7 +11,7 @@ keywords:
   - OpenBIM
   - IFC
   - automated compliance checking
-  - information readiness
+  - information governance
+  - evidence readiness
   - Information Delivery Specification
   - building regulations
-

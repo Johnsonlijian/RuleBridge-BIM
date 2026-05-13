@@ -1,42 +1,49 @@
-# Pilot Results Summary
+# Results Summary
 
-Run date: 2026-04-29
+Run date: 2026-05-13
 
 ## Corpora
 
-The pilot processed:
+The R18 benchmark processed:
 
 - **4,329** annotated CODE-ACCORD relation pairs.
-- **315** direct numeric relations: greater-equal, greater, less-equal, less and equal.
-- **3,002** semantic precondition relations: necessity, selection and part-of.
+- **315** direct numeric candidate relations: greater-equal, greater, less-equal, less and equal.
+- **3,002** semantic information-precondition relations: necessity, selection and part-of.
 - **12** public IDS example files.
-- **38** IDS specifications and **226** IDS facets.
-- **24** public IFC models across IFC2X3, IFC4 and IFC4X3.
-- **2,937** applicable IfcElement targets for identifier/type checks.
+- **344** discovered public IFC files.
+- **341** successfully parsed IFC files across IFC2X3, IFC4 and IFC4X3.
+- **34,554** object-rule evaluations across parsed target-bearing models.
 
-## Rule-Level Results
+The public IFC corpus is stratified as complete-ish models, sample fragments and IDS-oriented test fragments. It is reproducible and useful for benchmark stress-testing, but it is not treated as representative of permit submissions.
 
-| Rule | Interpretation | Pass rate |
-|---|---|---:|
-| R01_GLOBAL_ID | Stable identifiers | 100.0% |
-| R02_OBJECT_NAME | Object naming | 99.97% |
-| R03_TYPE_OR_OBJECTTYPE | Semantic typing | 99.28% |
-| R04_SPATIAL_CONTAINMENT | Spatial assignment | 84.81% |
-| R05_MATERIAL_AVAILABLE | Material information | 97.21% |
-| R06_DOOR_CLEAR_WIDTH | Door width availability/minimum | 69.84% |
-| R07_WINDOW_DIMENSIONS | Window width/height | 100.0% |
-| R08_SPACE_AREA | Space area availability | 83.33% |
-| R09_FIRE_RATING | Fire-rating evidence | 46.40% |
-| R10_SITE_GEOREFERENCE | Site georeferencing | 2.00% |
+## Expanded Evidence-Readiness Results
 
-## Main Findings
+| Completeness stratum | Information continuity | Semantic definition | Spatial/project context | Material/product evidence | Regulatory attributes |
+|---|---:|---:|---:|---:|---:|
+| Complete-ish | 97.56% | 46.82% | 91.09% | 85.94% | 34.33% |
+| Sample-fragment | 100.00% | 97.57% | 87.88% | 100.00% | 7.14% |
+| Test-fragment | 58.10% | 12.23% | 12.53% | 10.06% | 3.49% |
 
-1. Public IFC models usually carry identifiers and object names, so traceability is not the main bottleneck in this pilot.
-2. Automated checking readiness drops for information that bridges design intent and regulatory judgement: georeferencing, fire ratings, clear-width evidence, space areas and spatial containment.
-3. The CODE-ACCORD relation distribution supports a two-stage strategy: direct numeric relations can become executable comparisons, while semantic relations become IDS-style information preconditions.
-4. Counterfactual checks detected injected violations and accepted synthetic repairs for supported rules, giving a basic implementation sanity check.
+## IDS/IfcTester Reference Comparison
 
-## Manuscript Claim Boundaries
+RuleBridge-BIM was compared with an IDS/IfcTester reference for the IDS-expressible subset of checks:
 
-These are not claims about the compliance of real buildings. They are claims about **OpenBIM information readiness for automated compliance checking**. The current IFC corpus contains public samples, not a representative regulatory-submission dataset.
+- Exact agreement for GlobalId, object name, material and window dimension checks.
+- **421** RuleBridge-only passes for type evidence because RuleBridge accepts predefined type and type-relationship routes beyond direct object type.
+- **50** IfcTester-only passes for door width because the IDS reference checks width presence, while RuleBridge-BIM applies the illustrative threshold.
+- R04 spatial containment and R10 site georeferencing are reported as not represented by the pilot IDS mapping.
 
+## Evidence Route Graph And Triage
+
+The Evidence Route Graph distinguishes direct attributes, predefined/type routes, relationship routes, quantity/property routes, missing evidence and evidence-present-but-insufficient cases. Key diagnostic gaps include:
+
+- **873** missing spatial relationship cases.
+- **1,635** missing fire-rating route cases.
+- **103** missing door-width cases and **50** width-present-but-insufficient cases.
+- **99** missing site georeference cases.
+
+The mutation/repair simulation generated **34,554** synthetic test rows. Implemented operators followed the expected deterministic state transitions, supporting implementation maintainability but not legal correctness.
+
+## Claim Boundaries
+
+These are not claims about the compliance of real buildings. They are claims about **OpenBIM information readiness and evidence-route governance before automated compliance checking**. The current IFC corpus contains public samples and test fragments, not a representative regulatory-submission dataset.

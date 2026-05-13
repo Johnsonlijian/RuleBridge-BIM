@@ -17,12 +17,12 @@ def save_workflow() -> None:
     fig, ax = plt.subplots(figsize=(11, 3.8))
     ax.axis("off")
     steps = [
-        "Regulatory text\nCODE-ACCORD",
-        "Constrained rule\ncandidate extraction",
-        "IDS-like intermediate\nrepresentation",
-        "OpenBIM feature\nextraction",
-        "Executable checks\nand evidence",
-        "Counterfactual\nvalidation",
+        "Project delivery\ninformation need",
+        "IDS-like evidence\nrequirement",
+        "IFC evidence-route\nextraction",
+        "RuleBridge / IDS\nreference comparison",
+        "Evidence-route\ntriage",
+        "BEP/EIR/RACI\naction",
     ]
     x_positions = [0.04, 0.21, 0.39, 0.57, 0.74, 0.89]
     for i, (x, label) in enumerate(zip(x_positions, steps)):
@@ -37,7 +37,7 @@ def save_workflow() -> None:
         )
         if i < len(steps) - 1:
             ax.annotate("", xy=(x_positions[i + 1] - 0.065, 0.55), xytext=(x + 0.065, 0.55), arrowprops=dict(arrowstyle="->", lw=1.6, color="#335c67"))
-    ax.text(0.5, 0.08, "RuleBridge-BIM keeps generative AI outside the final verdict: all reported model decisions are produced by deterministic checks.", ha="center", fontsize=9)
+    ax.text(0.5, 0.08, "RuleBridge-BIM separates missing evidence from non-compliance candidates before downstream checking.", ha="center", fontsize=9)
     fig.savefig(FIGURES / "figure1_method_workflow.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
 
@@ -59,34 +59,34 @@ def save_relation_bar() -> None:
 
 
 def save_rule_heatmap() -> None:
-    matrix = pd.read_csv(DATA_PROCESSED / "rule_results_model_level.csv")
-    pivot = matrix.pivot_table(index="model", columns="rule_id", values="pass_rate", aggfunc="mean")
-    pivot = pivot.loc[pivot.notna().sum(axis=1).sort_values(ascending=False).index]
-    fig_height = max(5, 0.28 * len(pivot))
-    fig, ax = plt.subplots(figsize=(9.5, fig_height))
+    matrix = pd.read_csv(DATA_PROCESSED / "readiness_by_corpus_stratum.csv")
+    pivot = matrix.pivot_table(
+        index="completeness_tier",
+        columns="evidence_family",
+        values="object_level_pass_rate",
+        aggfunc="mean",
+    )
+    fig, ax = plt.subplots(figsize=(9.5, 4.6))
     sns.heatmap(pivot, ax=ax, cmap="RdYlGn", vmin=0, vmax=1, cbar_kws={"label": "Pass rate"}, linewidths=0.25, linecolor="white")
-    ax.set_xlabel("Executable rule")
-    ax.set_ylabel("IFC model")
-    ax.set_title("OpenBIM compliance-information pass rates across public IFC models")
+    ax.set_xlabel("Evidence family")
+    ax.set_ylabel("Corpus stratum")
+    ax.set_title("OpenBIM evidence readiness by public-corpus stratum")
     fig.savefig(FIGURES / "figure3_rule_pass_heatmap.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
 
 
 def save_counterfactual() -> None:
-    df = pd.read_csv(DATA_PROCESSED / "counterfactual_validation.csv")
-    summary = df.groupby("rule_id", as_index=False).agg(
-        neg=("negative_mutation_detection_rate", "mean"),
-        repair=("positive_repair_success_rate", "mean"),
-    )
+    df = pd.read_csv(DATA_PROCESSED / "mutation_repair_operator_summary.csv")
+    summary = df.pivot_table(index="rule_id", columns="original_state", values="success_rate", aggfunc="mean").reset_index()
     fig, ax = plt.subplots(figsize=(8.5, 4.4))
     x = range(len(summary))
-    ax.bar([i - 0.18 for i in x], summary["neg"].fillna(0), width=0.36, label="Detect injected violation", color="#264653")
-    ax.bar([i + 0.18 for i in x], summary["repair"].fillna(0), width=0.36, label="Accept synthetic repair", color="#f4a261")
+    ax.bar([i - 0.18 for i in x], summary.get("pass", pd.Series([0] * len(summary))).fillna(0), width=0.36, label="Detect removed evidence", color="#264653")
+    ax.bar([i + 0.18 for i in x], summary.get("fail", pd.Series([0] * len(summary))).fillna(0), width=0.36, label="Recover synthetic repair", color="#f4a261")
     ax.set_xticks(list(x))
     ax.set_xticklabels(summary["rule_id"], rotation=45, ha="right")
     ax.set_ylim(0, 1.05)
     ax.set_ylabel("Mean validation rate")
-    ax.set_title("Counterfactual validation of executable checks")
+    ax.set_title("Evidence-mutation and repair sensitivity")
     ax.legend(frameon=False, loc="lower right")
     sns.despine(ax=ax)
     fig.savefig(FIGURES / "figure4_counterfactual_validation.png", dpi=300, bbox_inches="tight")
@@ -94,20 +94,24 @@ def save_counterfactual() -> None:
 
 
 def save_rule_theme_table_image() -> None:
-    df = pd.read_csv(DATA_PROCESSED / "rule_results_model_level.csv")
-    summary = (
-        df.groupby(["theme"], as_index=False)
-        .agg(target_count=("target_count", "sum"), fail_count=("fail_count", "sum"))
+    df = pd.read_csv(DATA_PROCESSED / "evidence_route_element_level.csv")
+    total = df.groupby("evidence_family", as_index=False).size().rename(columns={"size": "target_count"})
+    fail = (
+        df[df["triage_state"] != "ready"]
+        .groupby("evidence_family", as_index=False)
+        .size()
+        .rename(columns={"size": "fail_count"})
     )
+    summary = total.merge(fail, on="evidence_family", how="left").fillna({"fail_count": 0})
     summary["fail_share"] = summary["fail_count"] / summary["target_count"].where(summary["target_count"] != 0)
     summary = summary.sort_values("fail_share", ascending=False)
-    wrapped = [textwrap.fill(x, 24) for x in summary["theme"]]
+    wrapped = [textwrap.fill(x.replace("_", " "), 24) for x in summary["evidence_family"]]
     fig, ax = plt.subplots(figsize=(7.2, 4.2))
     ax.barh(wrapped, summary["fail_share"].fillna(0), color="#457b9d")
     ax.invert_yaxis()
     ax.set_xlim(0, 1)
     ax.set_xlabel("Failure share across applicable objects")
-    ax.set_title("Where public IFC models lose automated-checking readiness")
+    ax.set_title("Evidence gaps by delivery evidence family")
     sns.despine(ax=ax)
     fig.savefig(FIGURES / "figure5_failure_by_theme.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
@@ -125,4 +129,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

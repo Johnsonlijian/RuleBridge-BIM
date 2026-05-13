@@ -1,0 +1,16 @@
+completeness_tier,evidence_family,models_with_targets,object_rule_targets,pass_count,fail_count,object_level_pass_rate,model_level_median_pass_rate,model_level_iqr
+complete-ish,information_continuity,2,11914,11623,291,0.9755749538358234,1.0,0.981-1.000
+complete-ish,material_product_evidence,2,2823,2426,397,0.8593694651080411,0.8906866223428044,0.851-0.930
+complete-ish,regulatory_attributes,2,2616,898,1718,0.34327217125382264,0.591454411221853,0.401-1.000
+complete-ish,semantic_definition,2,5903,2764,3139,0.4682364899203795,0.5774098007539041,0.366-0.789
+complete-ish,spatial_project_context,2,6030,5493,537,0.9109452736318407,0.8906301055522392,0.618-0.982
+sample-fragment,information_continuity,18,1486,1486,0,1.0,1.0,1.000-1.000
+sample-fragment,material_product_evidence,7,114,114,0,1.0,1.0,1.000-1.000
+sample-fragment,regulatory_attributes,6,28,2,26,0.07142857142857142,0.0,0.000-0.000
+sample-fragment,semantic_definition,18,741,723,18,0.9757085020242915,1.0,0.944-1.000
+sample-fragment,spatial_project_context,18,825,725,100,0.8787878787878788,0.3181818181818182,0.000-1.000
+test-fragment,information_continuity,275,747,434,313,0.5809906291834003,1.0,0.000-1.000
+test-fragment,material_product_evidence,249,318,32,286,0.10062893081761007,0.0,0.000-0.000
+test-fragment,regulatory_attributes,245,258,9,249,0.03488372093023256,0.0,0.000-0.000
+test-fragment,semantic_definition,275,368,45,323,0.12228260869565218,0.0,0.000-0.000
+test-fragment,spatial_project_context,275,383,48,335,0.12532637075718014,0.0,0.000-0.000

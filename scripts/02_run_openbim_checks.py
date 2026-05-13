@@ -1,75 +1,17 @@
 from __future__ import annotations
 
-from pathlib import Path
-
 import ifcopenshell
 import pandas as pd
 import yaml
 
+from aic_openbim_acc.corpus import INVENTORY_TYPES, discover_ifc_files, inventory_row
 from aic_openbim_acc.ifc_rules import (
     applicable_objects,
     evaluate_feature,
     feature_from_object,
     make_feature_mutation,
 )
-from aic_openbim_acc.paths import CONFIGS, DATA_PROCESSED, DATA_RAW, TABLES, ensure_dirs
-
-
-INVENTORY_TYPES = [
-    "IfcProject",
-    "IfcSite",
-    "IfcBuilding",
-    "IfcBuildingStorey",
-    "IfcSpace",
-    "IfcWall",
-    "IfcDoor",
-    "IfcWindow",
-    "IfcSlab",
-    "IfcBeam",
-    "IfcColumn",
-    "IfcStair",
-    "IfcRailing",
-    "IfcDistributionElement",
-    "IfcBuildingElement",
-]
-
-
-def discover_ifc_files(config: dict) -> list[Path]:
-    roots = [DATA_RAW / Path(config["paths"]["building_smart_ifc"]).name]
-    files = []
-    for root in roots:
-        if root.exists():
-            files.extend(sorted(root.rglob("*.ifc")))
-    for item in config["paths"].get("extra_ifc", []):
-        path = DATA_RAW / Path(item).name
-        if path.exists():
-            files.append(path)
-    return files
-
-
-def class_count(model: ifcopenshell.file, ifc_class: str) -> int:
-    try:
-        return len(model.by_type(ifc_class))
-    except Exception:
-        return 0
-
-
-def model_label(path: Path) -> str:
-    if path.name == "AdvancedProject.ifc":
-        return "AdvancedProject"
-    if "IFC 4.3.2.0" in str(path):
-        return f"IFC4X3-{path.stem}"
-    if "IFC 4.0.2.1" in str(path):
-        return f"IFC4-{path.stem}"
-    return path.stem
-
-
-def source_path_label(path: Path) -> str:
-    """Record a portable source-relative path instead of a local absolute path."""
-    try:
-        return str(path.relative_to(DATA_RAW)).replace("\\", "/")
-    except ValueError:
-        return path.name
+from aic_openbim_acc.paths import CONFIGS, DATA_PROCESSED, TABLES, ensure_dirs
 
 
 def main() -> None:
@@ -84,23 +26,14 @@ def main() -> None:
     mutation_rows = []
 
     for path in discover_ifc_files(config):
-        label = model_label(path)
         try:
             model = ifcopenshell.open(str(path))
         except Exception as exc:
-            inventory_rows.append({"model": label, "path": str(path), "parse_status": "failed", "parse_error": str(exc)})
+            inventory_rows.append(inventory_row(path, None, str(exc)))
             continue
 
-        inventory = {
-            "model": label,
-            "path": source_path_label(path),
-            "schema": model.schema,
-            "file_size_mb": round(path.stat().st_size / 1024 / 1024, 3),
-            "parse_status": "ok",
-            "parse_error": "",
-        }
-        for ifc_type in INVENTORY_TYPES:
-            inventory[ifc_type] = class_count(model, ifc_type)
+        inventory = inventory_row(path, model)
+        label = inventory["model"]
         inventory_rows.append(inventory)
 
         for rule in rules:
@@ -116,6 +49,10 @@ def main() -> None:
                 element_rows.append(
                     {
                         "model": label,
+                        "source_repository": inventory["source_repository"],
+                        "model_type": inventory["model_type"],
+                        "completeness_tier": inventory["completeness_tier"],
+                        "schema": model.schema,
                         "rule_id": rule["rule_id"],
                         "ifc_class": feature.ifc_class,
                         "global_id": feature.global_id,
@@ -133,6 +70,9 @@ def main() -> None:
                 {
                     "model": label,
                     "schema": model.schema,
+                    "source_repository": inventory["source_repository"],
+                    "model_type": inventory["model_type"],
+                    "completeness_tier": inventory["completeness_tier"],
                     "rule_id": rule["rule_id"],
                     "theme": rule["theme"],
                     "severity": rule["severity"],

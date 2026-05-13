@@ -1,0 +1,2328 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ids xmlns="http://standards.buildingsmart.org/IDS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd">
+    <info>
+        <title>RuleBridge-BIM IDS-style reference</title>
+        <description>IDS-style reference specifications for the subset of RuleBridge-BIM readiness checks that can be expressed as direct IDS entity, attribute, property or material requirements.</description>
+    </info>
+    <specifications>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCAIRTERMINAL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCAIRTERMINAL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCAIRTERMINAL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCBEAM" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCBEAM">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCBEAM</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCBUILDINGELEMENTPART" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCBUILDINGELEMENTPART">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCBUILDINGELEMENTPART</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCBUILDINGELEMENTPROXY" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCBUILDINGELEMENTPROXY">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCBUILDINGELEMENTPROXY</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCCHIMNEY" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCCHIMNEY">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCCHIMNEY</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCCOLUMN" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCCOLUMN">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCCOLUMN</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCCOURSE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCCOURSE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCCOURSE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCCOVERING" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCCOVERING">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCCOVERING</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCDISCRETEACCESSORY" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCDISCRETEACCESSORY">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDISCRETEACCESSORY</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCDISTRIBUTIONELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCDISTRIBUTIONELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDISTRIBUTIONELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCDOOR" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCDOOR">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDOOR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCDUCTSEGMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCDUCTSEGMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDUCTSEGMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCEARTHWORKSFILL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCEARTHWORKSFILL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCEARTHWORKSFILL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCELEMENTASSEMBLY" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCELEMENTASSEMBLY">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCELEMENTASSEMBLY</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCFLOWSEGMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCFLOWSEGMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFLOWSEGMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCFLOWTERMINAL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCFLOWTERMINAL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFLOWTERMINAL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCFOOTING" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCFOOTING">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFOOTING</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCFURNISHINGELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCFURNISHINGELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFURNISHINGELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCFURNITURE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCFURNITURE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFURNITURE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCGEOGRAPHICELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCGEOGRAPHICELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCGEOGRAPHICELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCMECHANICALFASTENER" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCMECHANICALFASTENER">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCMECHANICALFASTENER</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCMEMBER" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCMEMBER">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCMEMBER</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCOPENINGELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCOPENINGELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCOPENINGELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCPIPESEGMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCPIPESEGMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCPIPESEGMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCPLATE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCPLATE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCPLATE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCRAIL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCRAIL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCRAIL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCRAILING" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCRAILING">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCRAILING</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCRAMP" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCRAMP">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCRAMP</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCRAMPFLIGHT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCRAMPFLIGHT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCRAMPFLIGHT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCROOF" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCROOF">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCROOF</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCSANITARYTERMINAL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCSANITARYTERMINAL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSANITARYTERMINAL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCSIGN" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCSIGN">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSIGN</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCSLAB" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCSLAB">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSLAB</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCSTAIR" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCSTAIR">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSTAIR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCSTAIRFLIGHT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCSTAIRFLIGHT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSTAIRFLIGHT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCSURFACEFEATURE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCSURFACEFEATURE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSURFACEFEATURE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCTRACKELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCTRACKELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCTRACKELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCVIRTUALELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCVIRTUALELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCVIRTUALELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCWALL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCWALL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCWALLSTANDARDCASE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCWALLSTANDARDCASE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALLSTANDARDCASE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R01_GLOBAL_ID:attribute_GlobalId:IFCWINDOW" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R01_GLOBAL_ID|attribute_GlobalId|IFCWINDOW">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWINDOW</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>GlobalId</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCAIRTERMINAL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCAIRTERMINAL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCAIRTERMINAL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCBEAM" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCBEAM">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCBEAM</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCBUILDINGELEMENTPART" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCBUILDINGELEMENTPART">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCBUILDINGELEMENTPART</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCBUILDINGELEMENTPROXY" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCBUILDINGELEMENTPROXY">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCBUILDINGELEMENTPROXY</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCCHIMNEY" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCCHIMNEY">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCCHIMNEY</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCCOLUMN" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCCOLUMN">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCCOLUMN</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCCOURSE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCCOURSE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCCOURSE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCCOVERING" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCCOVERING">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCCOVERING</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCDISCRETEACCESSORY" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCDISCRETEACCESSORY">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDISCRETEACCESSORY</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCDISTRIBUTIONELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCDISTRIBUTIONELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDISTRIBUTIONELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCDOOR" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCDOOR">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDOOR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCDUCTSEGMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCDUCTSEGMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDUCTSEGMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCEARTHWORKSFILL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCEARTHWORKSFILL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCEARTHWORKSFILL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCELEMENTASSEMBLY" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCELEMENTASSEMBLY">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCELEMENTASSEMBLY</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCFLOWSEGMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCFLOWSEGMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFLOWSEGMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCFLOWTERMINAL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCFLOWTERMINAL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFLOWTERMINAL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCFOOTING" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCFOOTING">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFOOTING</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCFURNISHINGELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCFURNISHINGELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFURNISHINGELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCFURNITURE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCFURNITURE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFURNITURE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCGEOGRAPHICELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCGEOGRAPHICELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCGEOGRAPHICELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCMECHANICALFASTENER" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCMECHANICALFASTENER">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCMECHANICALFASTENER</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCMEMBER" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCMEMBER">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCMEMBER</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCOPENINGELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCOPENINGELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCOPENINGELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCPIPESEGMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCPIPESEGMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCPIPESEGMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCPLATE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCPLATE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCPLATE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCRAIL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCRAIL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCRAIL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCRAILING" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCRAILING">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCRAILING</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCRAMP" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCRAMP">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCRAMP</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCRAMPFLIGHT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCRAMPFLIGHT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCRAMPFLIGHT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCROOF" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCROOF">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCROOF</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCSANITARYTERMINAL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCSANITARYTERMINAL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSANITARYTERMINAL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCSIGN" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCSIGN">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSIGN</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCSLAB" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCSLAB">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSLAB</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCSPACE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCSPACE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSPACE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCSTAIR" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCSTAIR">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSTAIR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCSTAIRFLIGHT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCSTAIRFLIGHT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSTAIRFLIGHT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCSURFACEFEATURE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCSURFACEFEATURE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSURFACEFEATURE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCTRACKELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCTRACKELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCTRACKELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCVIRTUALELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCVIRTUALELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCVIRTUALELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCWALL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCWALL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCWALLSTANDARDCASE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCWALLSTANDARDCASE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALLSTANDARDCASE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R02_OBJECT_NAME:attribute_Name:IFCWINDOW" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R02_OBJECT_NAME|attribute_Name|IFCWINDOW">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWINDOW</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCAIRTERMINAL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCAIRTERMINAL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCAIRTERMINAL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCBEAM" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCBEAM">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCBEAM</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCBUILDINGELEMENTPART" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCBUILDINGELEMENTPART">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCBUILDINGELEMENTPART</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCBUILDINGELEMENTPROXY" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCBUILDINGELEMENTPROXY">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCBUILDINGELEMENTPROXY</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCCHIMNEY" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCCHIMNEY">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCCHIMNEY</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCCOLUMN" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCCOLUMN">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCCOLUMN</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCCOURSE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCCOURSE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCCOURSE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCCOVERING" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCCOVERING">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCCOVERING</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCDISCRETEACCESSORY" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCDISCRETEACCESSORY">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDISCRETEACCESSORY</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCDISTRIBUTIONELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCDISTRIBUTIONELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDISTRIBUTIONELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCDOOR" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCDOOR">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDOOR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCDUCTSEGMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCDUCTSEGMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDUCTSEGMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCEARTHWORKSFILL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCEARTHWORKSFILL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCEARTHWORKSFILL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCELEMENTASSEMBLY" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCELEMENTASSEMBLY">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCELEMENTASSEMBLY</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCFLOWSEGMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCFLOWSEGMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFLOWSEGMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCFLOWTERMINAL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCFLOWTERMINAL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFLOWTERMINAL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCFOOTING" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCFOOTING">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFOOTING</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCFURNISHINGELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCFURNISHINGELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFURNISHINGELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCFURNITURE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCFURNITURE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCFURNITURE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCGEOGRAPHICELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCGEOGRAPHICELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCGEOGRAPHICELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCMECHANICALFASTENER" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCMECHANICALFASTENER">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCMECHANICALFASTENER</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCMEMBER" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCMEMBER">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCMEMBER</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCOPENINGELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCOPENINGELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCOPENINGELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCPIPESEGMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCPIPESEGMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCPIPESEGMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCPLATE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCPLATE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCPLATE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCRAIL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCRAIL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCRAIL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCRAILING" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCRAILING">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCRAILING</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCRAMP" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCRAMP">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCRAMP</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCRAMPFLIGHT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCRAMPFLIGHT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCRAMPFLIGHT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCROOF" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCROOF">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCROOF</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCSANITARYTERMINAL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCSANITARYTERMINAL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSANITARYTERMINAL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCSIGN" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCSIGN">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSIGN</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCSLAB" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCSLAB">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSLAB</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCSTAIR" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCSTAIR">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSTAIR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCSTAIRFLIGHT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCSTAIRFLIGHT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSTAIRFLIGHT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCSURFACEFEATURE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCSURFACEFEATURE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSURFACEFEATURE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCTRACKELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCTRACKELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCTRACKELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCVIRTUALELEMENT" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCVIRTUALELEMENT">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCVIRTUALELEMENT</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCWALL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCWALL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCWALLSTANDARDCASE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCWALLSTANDARDCASE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALLSTANDARDCASE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R03_TYPE_OR_OBJECTTYPE:attribute_ObjectType:IFCWINDOW" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R03_TYPE_OR_OBJECTTYPE|attribute_ObjectType|IFCWINDOW">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWINDOW</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R05_MATERIAL_AVAILABLE:material_required:IFCBEAM" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R05_MATERIAL_AVAILABLE|material_required|IFCBEAM">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCBEAM</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <material cardinality="required" />
+            </requirements>
+        </specification>
+        <specification name="R05_MATERIAL_AVAILABLE:material_required:IFCCOLUMN" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R05_MATERIAL_AVAILABLE|material_required|IFCCOLUMN">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCCOLUMN</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <material cardinality="required" />
+            </requirements>
+        </specification>
+        <specification name="R05_MATERIAL_AVAILABLE:material_required:IFCDOOR" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R05_MATERIAL_AVAILABLE|material_required|IFCDOOR">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDOOR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <material cardinality="required" />
+            </requirements>
+        </specification>
+        <specification name="R05_MATERIAL_AVAILABLE:material_required:IFCRAILING" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R05_MATERIAL_AVAILABLE|material_required|IFCRAILING">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCRAILING</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <material cardinality="required" />
+            </requirements>
+        </specification>
+        <specification name="R05_MATERIAL_AVAILABLE:material_required:IFCSLAB" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R05_MATERIAL_AVAILABLE|material_required|IFCSLAB">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSLAB</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <material cardinality="required" />
+            </requirements>
+        </specification>
+        <specification name="R05_MATERIAL_AVAILABLE:material_required:IFCSTAIR" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R05_MATERIAL_AVAILABLE|material_required|IFCSTAIR">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSTAIR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <material cardinality="required" />
+            </requirements>
+        </specification>
+        <specification name="R05_MATERIAL_AVAILABLE:material_required:IFCWALL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R05_MATERIAL_AVAILABLE|material_required|IFCWALL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <material cardinality="required" />
+            </requirements>
+        </specification>
+        <specification name="R05_MATERIAL_AVAILABLE:material_required:IFCWALLSTANDARDCASE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R05_MATERIAL_AVAILABLE|material_required|IFCWALLSTANDARDCASE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALLSTANDARDCASE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <material cardinality="required" />
+            </requirements>
+        </specification>
+        <specification name="R05_MATERIAL_AVAILABLE:material_required:IFCWINDOW" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R05_MATERIAL_AVAILABLE|material_required|IFCWINDOW">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWINDOW</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <material cardinality="required" />
+            </requirements>
+        </specification>
+        <specification name="R06_DOOR_CLEAR_WIDTH:attribute_OverallWidth:IFCDOOR" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R06_DOOR_CLEAR_WIDTH|attribute_OverallWidth|IFCDOOR">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDOOR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>OverallWidth</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R07_WINDOW_DIMENSIONS:attribute_OverallWidth_OverallHeight:IFCWINDOW" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R07_WINDOW_DIMENSIONS|attribute_OverallWidth_OverallHeight|IFCWINDOW">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWINDOW</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>OverallWidth</simpleValue>
+                    </name>
+                </attribute>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>OverallHeight</simpleValue>
+                    </name>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="R08_SPACE_AREA:property_Qto_SpaceBaseQuantities_NetFloorArea:IFCSPACE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R08_SPACE_AREA|property_Qto_SpaceBaseQuantities_NetFloorArea|IFCSPACE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSPACE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property cardinality="required">
+                    <propertySet>
+                        <simpleValue>Qto_SpaceBaseQuantities</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>NetFloorArea</simpleValue>
+                    </baseName>
+                </property>
+            </requirements>
+        </specification>
+        <specification name="R08_SPACE_AREA:property_Qto_SpaceBaseQuantities_GrossFloorArea:IFCSPACE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R08_SPACE_AREA|property_Qto_SpaceBaseQuantities_GrossFloorArea|IFCSPACE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSPACE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property cardinality="required">
+                    <propertySet>
+                        <simpleValue>Qto_SpaceBaseQuantities</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>GrossFloorArea</simpleValue>
+                    </baseName>
+                </property>
+            </requirements>
+        </specification>
+        <specification name="R08_SPACE_AREA:property_BaseQuantities_NetFloorArea:IFCSPACE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R08_SPACE_AREA|property_BaseQuantities_NetFloorArea|IFCSPACE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSPACE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property cardinality="required">
+                    <propertySet>
+                        <simpleValue>BaseQuantities</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>NetFloorArea</simpleValue>
+                    </baseName>
+                </property>
+            </requirements>
+        </specification>
+        <specification name="R08_SPACE_AREA:property_BaseQuantities_GrossFloorArea:IFCSPACE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R08_SPACE_AREA|property_BaseQuantities_GrossFloorArea|IFCSPACE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSPACE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property cardinality="required">
+                    <propertySet>
+                        <simpleValue>BaseQuantities</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>GrossFloorArea</simpleValue>
+                    </baseName>
+                </property>
+            </requirements>
+        </specification>
+        <specification name="R09_FIRE_RATING:property_Pset_DoorCommon_FireRating:IFCDOOR" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R09_FIRE_RATING|property_Pset_DoorCommon_FireRating|IFCDOOR">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDOOR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property cardinality="required">
+                    <propertySet>
+                        <simpleValue>Pset_DoorCommon</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>FireRating</simpleValue>
+                    </baseName>
+                </property>
+            </requirements>
+        </specification>
+        <specification name="R09_FIRE_RATING:property_Pset_DoorCommon_FireResistanceRating:IFCDOOR" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R09_FIRE_RATING|property_Pset_DoorCommon_FireResistanceRating|IFCDOOR">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDOOR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property cardinality="required">
+                    <propertySet>
+                        <simpleValue>Pset_DoorCommon</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>FireResistanceRating</simpleValue>
+                    </baseName>
+                </property>
+            </requirements>
+        </specification>
+        <specification name="R09_FIRE_RATING:property_Pset_WallCommon_FireRating:IFCWALL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R09_FIRE_RATING|property_Pset_WallCommon_FireRating|IFCWALL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property cardinality="required">
+                    <propertySet>
+                        <simpleValue>Pset_WallCommon</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>FireRating</simpleValue>
+                    </baseName>
+                </property>
+            </requirements>
+        </specification>
+        <specification name="R09_FIRE_RATING:property_Pset_WallCommon_FireResistanceRating:IFCWALL" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R09_FIRE_RATING|property_Pset_WallCommon_FireResistanceRating|IFCWALL">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property cardinality="required">
+                    <propertySet>
+                        <simpleValue>Pset_WallCommon</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>FireResistanceRating</simpleValue>
+                    </baseName>
+                </property>
+            </requirements>
+        </specification>
+        <specification name="R09_FIRE_RATING:property_Pset_WallCommon_FireRating:IFCWALLSTANDARDCASE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R09_FIRE_RATING|property_Pset_WallCommon_FireRating|IFCWALLSTANDARDCASE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALLSTANDARDCASE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property cardinality="required">
+                    <propertySet>
+                        <simpleValue>Pset_WallCommon</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>FireRating</simpleValue>
+                    </baseName>
+                </property>
+            </requirements>
+        </specification>
+        <specification name="R09_FIRE_RATING:property_Pset_WallCommon_FireResistanceRating:IFCWALLSTANDARDCASE" ifcVersion="IFC2X3 IFC4 IFC4X3_ADD2" identifier="R09_FIRE_RATING|property_Pset_WallCommon_FireResistanceRating|IFCWALLSTANDARDCASE">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCWALLSTANDARDCASE</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property cardinality="required">
+                    <propertySet>
+                        <simpleValue>Pset_WallCommon</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>FireResistanceRating</simpleValue>
+                    </baseName>
+                </property>
+            </requirements>
+        </specification>
+    </specifications>
+</ids>

@@ -1,0 +1,17 @@
+source_repository,schema,model_type,completeness_tier,parse_status,model_count
+BIM Whale IFC samples,IFC2X3,architecture,complete-ish,ok,1
+buildingSMART IDS repository,IFC2X3,ids-example,test-fragment,ok,1
+buildingSMART IDS repository,IFC2X3,test-fragment,complete-ish,ok,1
+buildingSMART IDS repository,IFC4,ids-validator-testcase,test-fragment,ok,315
+buildingSMART IDS repository,,ids-validator-testcase,parse-failed,failed,3
+buildingSMART Sample-Test-Files,IFC4,architecture,sample-fragment,ok,1
+buildingSMART Sample-Test-Files,IFC4,infrastructure,sample-fragment,ok,4
+buildingSMART Sample-Test-Files,IFC4,mep,sample-fragment,ok,2
+buildingSMART Sample-Test-Files,IFC4,structure,sample-fragment,ok,1
+buildingSMART Sample-Test-Files,IFC4,test-fragment,sample-fragment,ok,1
+buildingSMART Sample-Test-Files,IFC4,test-fragment,test-fragment,ok,5
+buildingSMART Sample-Test-Files,IFC4X3,architecture,sample-fragment,ok,1
+buildingSMART Sample-Test-Files,IFC4X3,infrastructure,sample-fragment,ok,4
+buildingSMART Sample-Test-Files,IFC4X3,mep,sample-fragment,ok,2
+buildingSMART Sample-Test-Files,IFC4X3,structure,sample-fragment,ok,1
+buildingSMART Sample-Test-Files,IFC4X3,test-fragment,sample-fragment,ok,1

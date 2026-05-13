@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from pathlib import Path
 from typing import Any
 
 import ifcopenshell
@@ -8,31 +7,9 @@ import ifcopenshell.util.element as ifc_element
 import pandas as pd
 import yaml
 
+from aic_openbim_acc.corpus import discover_ifc_files, inventory_row
 from aic_openbim_acc.ifc_rules import applicable_objects, feature_from_object, normalize_length
-from aic_openbim_acc.paths import CONFIGS, DATA_PROCESSED, DATA_RAW, ensure_dirs
-
-
-def discover_ifc_files(config: dict) -> list[Path]:
-    roots = [DATA_RAW / Path(config["paths"]["building_smart_ifc"]).name]
-    files: list[Path] = []
-    for root in roots:
-        if root.exists():
-            files.extend(sorted(root.rglob("*.ifc")))
-    for item in config["paths"].get("extra_ifc", []):
-        path = DATA_RAW / Path(item).name
-        if path.exists():
-            files.append(path)
-    return files
-
-
-def model_label(path: Path) -> str:
-    if path.name == "AdvancedProject.ifc":
-        return "AdvancedProject"
-    if "IFC 4.3.2.0" in str(path):
-        return f"IFC4X3-{path.stem}"
-    if "IFC 4.0.2.1" in str(path):
-        return f"IFC4-{path.stem}"
-    return path.stem
+from aic_openbim_acc.paths import CONFIGS, DATA_PROCESSED, ensure_dirs
 
 
 def _non_empty(value: Any) -> bool:
@@ -111,11 +88,12 @@ def main() -> None:
 
     rows: list[dict[str, Any]] = []
     for path in discover_ifc_files(config):
-        label = model_label(path)
         try:
             model = ifcopenshell.open(str(path))
         except Exception:
             continue
+        inv = inventory_row(path, model)
+        label = inv["model"]
         for rule in rules:
             direct_pass_count = 0
             target_count = 0
@@ -126,6 +104,10 @@ def main() -> None:
             rows.append(
                 {
                     "model": label,
+                    "source_repository": inv["source_repository"],
+                    "model_type": inv["model_type"],
+                    "completeness_tier": inv["completeness_tier"],
+                    "schema": model.schema,
                     "rule_id": rule["rule_id"],
                     "target_count": target_count,
                     "direct_reference_pass_count": direct_pass_count,

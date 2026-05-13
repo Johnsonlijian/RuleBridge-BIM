@@ -1,7 +1,7 @@
 [project]
 name = "rulebridge-bim"
 version = "0.1.0"
-description = "Reproducible OpenBIM evidence-readiness dataset and diagnostic protocol for automated compliance checking."
+description = "Reproducible OpenBIM evidence-route benchmark for pre-compliance information governance."
 requires-python = ">=3.11"
 dependencies = [
   "ifcopenshell",
@@ -10,7 +10,8 @@ dependencies = [
   "seaborn",
   "lxml",
   "pyyaml",
-  "rich"
+  "rich",
+  "ifctester>=0.8.5",
 ]
 
 [tool.setuptools.packages.find]
