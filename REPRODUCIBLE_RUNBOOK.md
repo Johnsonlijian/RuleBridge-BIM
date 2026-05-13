@@ -4,7 +4,7 @@
 
 Working directory:
 
-`R:\NAS_DRIVE\IMUT\1-Research_Output\1-Papers\1-In_Preparation\2026-CodexNature\AIC_Paper_Automated_Construction_2026`
+`R:\NAS_DRIVE\IMUT\1-Research_Output\1-Papers\1-In_Preparation\2026-AIC-RuleBridge-BIM`
 
 Python environment:
 
@@ -52,14 +52,12 @@ $env:PYTHONPATH='src'
 - `manuscript/figures/figure4_counterfactual_validation.png`
 - `manuscript/figures/figure5_failure_by_theme.png`
 
-## Current Validation Status
+## Current Diagnostic Status
 
-The pipeline completed successfully on 2026-04-29.
+The pipeline completed successfully for the reported public-corpus diagnostic outputs.
 
-The empirical pilot is suitable for a strong methods paper draft. Before journal submission, the work should add at least one of the following:
+The empirical pilot supports a bounded evidence-readiness dataset and diagnostic-protocol claim. Higher-confidence journal submission would benefit from at least one of the following additions:
 
-1. a larger corpus of real design-stage IFC submissions if accessible;
-2. expert validation of the rule-template mapping;
-3. live LLM runs against the prompt pack with model/version logging;
-4. comparison against an existing IDS checker or ACC tool.
-
+1. a larger corpus of real or permit-like IFC submissions if legally accessible;
+2. external expert labelling of the prepared clause-tier sample;
+3. comparison against an existing IDS checker, IfcOpenShell reference extraction script, or transparent manual encoding baseline.

@@ -1,38 +1,40 @@
 # RuleBridge-BIM
 
-RuleBridge-BIM is a reproducible OpenBIM information-readiness benchmark for automated compliance checking (ACC). The project links regulatory relation labels, IDS-like information requirements, deterministic IFC evidence extraction, and counterfactual rule-sensitivity checks.
+RuleBridge-BIM is a reproducible OpenBIM evidence-readiness dataset and diagnostic protocol for automated compliance checking (ACC). The project links regulatory relation labels, IDS-like information requirements, deterministic IFC evidence extraction, object-level readiness traces, field-presence ablation, failure taxonomy and counterfactual rule-sensitivity assessment.
 
-This repository is prepared as the public reproducibility package for the manuscript project. It is not a public dump of the full submission workspace: raw third-party archives, active submission drafts, reviewer strategy notes, and journal-specific packages are intentionally excluded.
+This repository is prepared as the public reproducibility package for the manuscript project. It is not a public dump of the full submission workspace: raw third-party archives, active submission drafts, cover letters, reviewer strategy notes, internal rounds and journal-specific packages are intentionally excluded.
 
-## What the Benchmark Does
+## What the Diagnostic Protocol Does
 
 The pipeline:
 
-1. builds a public artifact registry from CODE-ACCORD, buildingSMART IDS examples, and public IFC sample sources;
+1. builds a public artifact registry from CODE-ACCORD, buildingSMART IDS examples and public IFC sample sources;
 2. maps regulatory relation labels into bounded machine-checkability tiers;
 3. expresses selected information needs as IDS-like evidence requirements;
 4. extracts IFC evidence deterministically;
 5. reports readiness results for ten evidence-oriented checks;
-6. tests checker sensitivity with counterfactual pass/fail mutations.
+6. exports object-level readiness verdicts and failure reasons;
+7. compares configured checks with a field-presence ablation;
+8. tests checker sensitivity with counterfactual pass/fail mutations.
 
-The benchmark does not claim legal compliance of sampled buildings, does not claim that the IFC samples represent permit submissions, and does not use a language model to produce final compliance verdicts.
+The protocol does not claim legal compliance of sampled buildings, does not claim that the IFC samples represent permit submissions, does not claim independently validated clause-level regulatory traceability, and does not claim superiority over existing ACC or IDS tools.
 
 ## Current Empirical Scope
 
 - 4,329 annotated CODE-ACCORD relation pairs.
-- 315 direct numeric regulatory relations.
+- 315 direct numeric regulatory relation candidates.
 - 3,002 semantic precondition relations.
 - 12 public IDS example files.
 - 38 IDS specifications and 226 IDS facets.
-- 24 public IFC models across IFC2X3, IFC4, and IFC4X3.
-- 2,937 applicable `IfcElement` targets.
+- 24 public IFC models across IFC2X3, IFC4 and IFC4X3.
+- 13,782 object-rule readiness evaluations.
 - 10 OpenBIM information-readiness checks.
-- 141 counterfactual validation rows.
+- 141 counterfactual rule-sensitivity assessment rows.
 
 ## Repository Layout
 
 ```text
-configs/                Configuration files used by the benchmark scripts
+configs/                Configuration files used by the diagnostic scripts
 data_processed/         Derived tables generated from public inputs
 manuscript/figures/     Generated figures for reporting
 manuscript/tables/      Generated reporting tables
@@ -43,7 +45,7 @@ RESULTS_SUMMARY.md      Compact empirical summary
 REPRODUCIBLE_RUNBOOK.md Reproduction notes
 ```
 
-Excluded local folders include `data_raw/`, `data_interim/`, `Submit-AIC-2026/`, `rounds/`, `logs/`, and active submission manuscripts.
+Excluded local folders include `data_raw/`, `data_interim/`, `Submit-AIC-2026/`, `rounds/`, `logs/`, `deliverables/` and active submission manuscripts.
 
 ## Reproduce
 

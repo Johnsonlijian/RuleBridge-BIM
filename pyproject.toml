@@ -1,7 +1,7 @@
 [project]
 name = "rulebridge-bim"
 version = "0.1.0"
-description = "Reproducible OpenBIM information-readiness benchmark for automated compliance checking."
+description = "Reproducible OpenBIM evidence-readiness dataset and diagnostic protocol for automated compliance checking."
 requires-python = ">=3.11"
 dependencies = [
   "ifcopenshell",

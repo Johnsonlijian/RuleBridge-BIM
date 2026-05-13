@@ -31,6 +31,9 @@ deliverables/
 14_*.md
 15_*.md
 16_*.md
+17_*.md
+18_*.md
+19_*.md
 PROMPT_PACK.md
 SUBMISSION_CHECKLIST.md
 SOURCE_NOTES*.md
@@ -39,6 +42,7 @@ SOURCE_NOTES*.md
 manuscript/*.docx
 manuscript/*.pdf
 manuscript/*Submission*
+manuscript/*Supplementary*
 manuscript/*Working*
 manuscript/paper.md
 manuscript/highlights.md

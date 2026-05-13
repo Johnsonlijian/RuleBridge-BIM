@@ -1,8 +1,10 @@
 # Data and Code Availability
 
-This public repository contains the analysis scripts, rule configuration files, generated tables, and generated figures needed to inspect the RuleBridge-BIM pilot results. The pipeline uses open public data from CODE-ACCORD, buildingSMART IDS examples, buildingSMART IFC sample files, and one additional public IFC sample.
+The public reproducibility package for this study is available at:
 
-Raw third-party archives are not redistributed here. They should be obtained from the original source links in `DATASETS_AND_LINKS.csv` so that each source's license and redistribution terms remain intact.
+https://github.com/Johnsonlijian/RuleBridge-BIM
+
+The repository contains the analysis scripts, rule configuration files, generated tables, generated figures and source registry used to inspect the reported pilot results. Raw third-party archives are not redistributed in the repository; they should be obtained from the original sources listed in `DATASETS_AND_LINKS.csv` so that each source's license and redistribution terms remain intact.
 
 The analysis can be reproduced with:
 
