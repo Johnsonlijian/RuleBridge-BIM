@@ -49,7 +49,7 @@ After tables exist, re-aggregate pass rates from CSVs:
 
 ```powershell
 $env:PYTHONPATH='src'
-python scripts\06_reverify_derived_tables.py --md-out rounds/R17_rulebridge_computation_2026-05-13/iter01_reverification.md
+python scripts\06_reverify_derived_tables.py --md-out outputs\reverification_report.md
 ```
 
 This writes `outputs/reverification_report.json` with per-rule aggregate pass rates, descriptive mean model pass rates and model/element-level consistency checks.
@@ -93,8 +93,8 @@ This writes `outputs/reverification_report.json` with per-rule aggregate pass ra
 - `manuscript/figures/figure4_counterfactual_validation.png`
 - `manuscript/figures/figure5_failure_by_theme.png`
 
-## Current Diagnostic Status
+## Current ITcon R19 Diagnostic Status
 
-The expanded public-corpus diagnostic completed successfully for 344 discovered public/local-inspection IFC files, of which 341 parsed successfully. The current package supports a bounded evidence-readiness benchmark, an IfcOpenShell direct-field reference, an IDS/IfcTester reference for IDS-expressible checks, evidence-route graph summaries, computational project-delivery triage outputs and evidence-mutation/repair sensitivity checks.
+The expanded public-corpus diagnostic completed successfully for 344 discovered public/local-inspection IFC files, of which 341 parsed successfully. The current package supports the ITcon R19 RuleBridge-BIM protocol: a bounded evidence-readiness diagnostic, an IfcOpenShell direct-field reference, an IDS/IfcTester reference for IDS-expressible checks, evidence-route graph summaries, computational project-delivery triage outputs and evidence-mutation/repair sensitivity checks.
 
 The package still does not claim legal compliance, permit-submission representativeness, independent expert validation, or superiority over commercial ACC tools. Higher-confidence journal submission would still benefit from real permit-like IFC submissions, external expert labelling, or a commercial ACC/manual-encoding comparison if those resources become available.

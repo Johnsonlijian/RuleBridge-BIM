@@ -1,6 +1,6 @@
 # RuleBridge-BIM
 
-RuleBridge-BIM is a reproducible OpenBIM evidence-route benchmark for pre-compliance information governance in construction project delivery. The project links regulatory relation labels, IDS-like information requirements, deterministic IFC evidence extraction, object-level readiness traces, IfcOpenShell and IfcTester references, evidence-route graph summaries, failure taxonomy and diagnostic sensitivity assessment.
+RuleBridge-BIM is a reproducible OpenBIM evidence-readiness diagnostic for pre-compliance information governance. This public package is aligned with the ITcon submission version titled **"An OpenBIM evidence-readiness diagnostic for pre-compliance information governance: The RuleBridge-BIM protocol"**. The project links regulatory relation labels, IDS-like information requirements, deterministic IFC evidence extraction, object-level readiness traces, IfcOpenShell and IfcTester references, evidence-route graph summaries, failure taxonomy and diagnostic sensitivity assessment.
 
 This repository is prepared as the public reproducibility package for the manuscript project. It is not a public dump of the full submission workspace: raw third-party archives, active submission drafts, cover letters, reviewer strategy notes, internal rounds and journal-specific packages are intentionally excluded.
 

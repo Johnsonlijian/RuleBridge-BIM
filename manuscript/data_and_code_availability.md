@@ -1,10 +1,10 @@
 # Data and Code Availability
 
-The public reproducibility package for this study is available at:
+The public reproducibility package for **"An OpenBIM evidence-readiness diagnostic for pre-compliance information governance: The RuleBridge-BIM protocol"** is available at:
 
 https://github.com/Johnsonlijian/RuleBridge-BIM
 
-The repository contains the analysis scripts, rule configuration files, generated tables, generated figures, IDS/IfcTester reference files and source registry used to inspect the reported benchmark results. Raw third-party archives are not redistributed in the repository; they should be obtained from the original sources listed in `DATASETS_AND_LINKS.csv` so that each source's license and redistribution terms remain intact.
+The repository contains the analysis scripts, rule configuration files, generated tables, generated figures, IDS/IfcTester reference files and source registry used to inspect the reported evidence-readiness diagnostic results. Raw third-party archives are not redistributed in the repository; they should be obtained from the original sources listed in `DATASETS_AND_LINKS.csv` so that each source's license and redistribution terms remain intact.
 
 The analysis can be reproduced with:
 

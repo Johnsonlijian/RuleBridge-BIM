@@ -4,7 +4,7 @@ Run date: 2026-05-13
 
 ## Corpora
 
-The R18 benchmark processed:
+The ITcon R19 diagnostic package processed:
 
 - **4,329** annotated CODE-ACCORD relation pairs.
 - **315** direct numeric candidate relations: greater-equal, greater, less-equal, less and equal.
@@ -46,4 +46,4 @@ The mutation/repair simulation generated **34,554** synthetic test rows. Impleme
 
 ## Claim Boundaries
 
-These are not claims about the compliance of real buildings. They are claims about **OpenBIM information readiness and evidence-route governance before automated compliance checking**. The current IFC corpus contains public samples and test fragments, not a representative regulatory-submission dataset.
+These are not claims about the compliance of real buildings. They are claims about **OpenBIM evidence readiness and pre-compliance information governance before automated compliance checking**. The current IFC corpus contains public samples and test fragments, not a representative regulatory-submission dataset.
